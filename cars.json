@@ -1,0 +1,5896 @@
+[
+  {
+    "make": "ACURA",
+    "model": "INTEGRA",
+    "year": "1990",
+    "location": "CARS FRONT 49 1",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "LEGEND",
+    "year": "1991",
+    "location": "CARS FRONT 19 12",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "MDX",
+    "year": "2005",
+    "location": "CARS FRONT 23 19",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "MDX",
+    "year": "2006",
+    "location": "CARS FRONT 60 17",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "ACURA",
+    "model": "MDX",
+    "year": "2007",
+    "location": "CARS FRONT 61 17",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "ACURA",
+    "model": "MDX",
+    "year": "2009",
+    "location": "CARS FRONT 62 17",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "ACURA",
+    "model": "TL",
+    "year": "2001",
+    "location": "CARS FRONT 20 12",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "TL",
+    "year": "2003",
+    "location": "CARS FRONT 49 6",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "TL",
+    "year": "2005",
+    "location": "CARS FRONT 29 17",
+    "available": "12/3/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "TL",
+    "year": "2006",
+    "location": "CARS FRONT 67 13",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "ACURA",
+    "model": "TL",
+    "year": "2007",
+    "location": "CARS FRONT 46 7",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "ACURA",
+    "model": "TSX",
+    "year": "2012",
+    "location": "CARS FRONT 66 24",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "A4",
+    "year": "2004",
+    "location": "CARS FRONT 66 15",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "A4",
+    "year": "2010",
+    "location": "CARS FRONT 35 16",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "AUDI",
+    "model": "A4",
+    "year": "2011",
+    "location": "CARS FRONT 62 18",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "A4 QUATTRO",
+    "year": "2009",
+    "location": "CARS FRONT 74 9",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "Q5",
+    "year": "2010",
+    "location": "CARS FRONT 61 9",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "Q7",
+    "year": "2008",
+    "location": "CARS FRONT 67 27",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "AUDI",
+    "model": "Q7",
+    "year": "2011",
+    "location": "CARS FRONT 73 19",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "BMW",
+    "model": "325I",
+    "year": "2002",
+    "location": "CARS FRONT 28 24",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "BMW",
+    "model": "328I",
+    "year": "2011",
+    "location": "CARS FRONT 58 3",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "BMW",
+    "model": "330I",
+    "year": "2004",
+    "location": "CARS FRONT 30 9",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "BMW",
+    "model": "550I",
+    "year": "2011",
+    "location": "CARS FRONT 29 15",
+    "available": "12/3/2025"
+  },
+  {
+    "make": "BMW",
+    "model": "750LI",
+    "year": "2006",
+    "location": "CARS FRONT 60 3",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "BMW",
+    "model": "750LI",
+    "year": "2008",
+    "location": "CARS FRONT 58 8",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "BMW",
+    "model": "X3",
+    "year": "2013",
+    "location": "CARS FRONT 64 19",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "BMW",
+    "model": "X5",
+    "year": "2006",
+    "location": "CARS FRONT 63 16",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "CENTURY",
+    "year": "1998",
+    "location": "CARS FRONT 25 11",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "CENTURY",
+    "year": "2001",
+    "location": "CARS FRONT 35 10",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "CENTURY",
+    "year": "2002",
+    "location": "CARS FRONT 23 7",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "CENTURY",
+    "year": "2003",
+    "location": "CARS FRONT 73 6",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "CENTURY",
+    "year": "2004",
+    "location": "CARS FRONT 68 3",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "ENCLAVE",
+    "year": "2009",
+    "location": "CARS FRONT 70 7",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "ENCLAVE",
+    "year": "2010",
+    "location": "CARS FRONT 20 2",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "ENCORE",
+    "year": "2013",
+    "location": "CARS FRONT 26 12",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LACROSSE",
+    "year": "2005",
+    "location": "CARS FRONT 22 4",
+    "available": "11/17/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LACROSSE",
+    "year": "2007",
+    "location": "CARS FRONT 32 13",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LACROSSE",
+    "year": "2016",
+    "location": "CARS FRONT 19 19",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "1998",
+    "location": "CARS FRONT 20 11",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2000",
+    "location": "CARS FRONT 70 19",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2001",
+    "location": "CARS FRONT 59 5",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2002",
+    "location": "CARS FRONT 66 27",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2003",
+    "location": "CARS FRONT 47 9",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2004",
+    "location": "CARS FRONT 19 16",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LESABRE",
+    "year": "2005",
+    "location": "CARS FRONT 19 15",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "LUCERNE",
+    "year": "2006",
+    "location": "CARS FRONT 61 15",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "LUCERNE",
+    "year": "2007",
+    "location": "CARS FRONT 68 19",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "LUCERNE",
+    "year": "2008",
+    "location": "CARS FRONT 21 18",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "PARK AVENUE",
+    "year": "1994",
+    "location": "CARS FRONT 63 5",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "PARK AVENUE",
+    "year": "1998",
+    "location": "CARS FRONT 27 20",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "PARK AVENUE",
+    "year": "2000",
+    "location": "CARS FRONT 27 19",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "PARK AVENUE",
+    "year": "2004",
+    "location": "CARS FRONT 58 1",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "RENDEZVOUS",
+    "year": "2004",
+    "location": "CARS FRONT 32 9",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "BUICK",
+    "model": "RENDEZVOUS",
+    "year": "2006",
+    "location": "CARS FRONT 64 10",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "VERANO",
+    "year": "2013",
+    "location": "CARS FRONT 72 7",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "BUICK",
+    "model": "VERANO",
+    "year": "2015",
+    "location": "CARS FRONT 31 4",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "ATS",
+    "year": "2017",
+    "location": "CARS FRONT 75 2",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "CTS",
+    "year": "2005",
+    "location": "CARS FRONT 54 2",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "CTS",
+    "year": "2009",
+    "location": "CARS FRONT 72 19",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "CTS",
+    "year": "2010",
+    "location": "CARS FRONT 55 7",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "CTS",
+    "year": "2011",
+    "location": "CARS FRONT 46 9",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "DEVILLE",
+    "year": "1994",
+    "location": "CARS FRONT 34 8",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "DEVILLE",
+    "year": "2000",
+    "location": "TRUCKS 1 7",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "DEVILLE",
+    "year": "2004",
+    "location": "CARS FRONT 73 13",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "SRX",
+    "year": "2005",
+    "location": "CARS FRONT 71 5",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "SRX",
+    "year": "2007",
+    "location": "CARS FRONT 55 6",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "SRX",
+    "year": "2010",
+    "location": "CARS FRONT 32 22",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "SRX",
+    "year": "2011",
+    "location": "CARS FRONT 71 1",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "CADILLAC",
+    "model": "SRX",
+    "year": "2012",
+    "location": "CARS FRONT 75 12",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "ASTRO",
+    "year": "1994",
+    "location": "CARS FRONT 24 18",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "ASTRO",
+    "year": "2003",
+    "location": "CARS FRONT 33 1",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "AVALANCHE 1500",
+    "year": "2004",
+    "location": "CARS FRONT 11 4",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "AVALANCHE 1500",
+    "year": "2005",
+    "location": "CARS FRONT 11 7",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "AVEO",
+    "year": "2009",
+    "location": "CARS FRONT 50 5",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "AVEO",
+    "year": "2011",
+    "location": "CARS FRONT 42 6",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "BLAZER",
+    "year": "1995",
+    "location": "CARS FRONT 40 6",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "BLAZER",
+    "year": "2001",
+    "location": "CARS FRONT 36 1",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "BLAZER",
+    "year": "2004",
+    "location": "CARS FRONT 75 8",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "C/K 30 SERIES",
+    "year": "1982",
+    "location": "TRUCKS 10 3",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "C1500",
+    "year": "1996",
+    "location": "CARS FRONT 4 8",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "C1500",
+    "year": "1998",
+    "location": "CARS FRONT 5 2",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "C1500",
+    "year": "1999",
+    "location": "TRUCKS 9 12",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "C2500",
+    "year": "1996",
+    "location": "TRUCKS 10 12",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CAMARO",
+    "year": "1987",
+    "location": "CARS FRONT 69 24",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CAMARO",
+    "year": "1992",
+    "location": "CARS FRONT 20 6",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CAMARO",
+    "year": "2000",
+    "location": "CARS FRONT 41 4",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CAVALIER",
+    "year": "2003",
+    "location": "CARS FRONT 21 16",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CAVALIER",
+    "year": "2004",
+    "location": "CARS FRONT 25 10",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CELEBRITY",
+    "year": "1990",
+    "location": "CARS FRONT 65 7",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CLASSIC",
+    "year": "2004",
+    "location": "CARS FRONT 33 10",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CLASSIC",
+    "year": "2005",
+    "location": "CARS FRONT 70 24",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "COBALT",
+    "year": "2005",
+    "location": "CARS FRONT 73 14",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "COBALT",
+    "year": "2006",
+    "location": "CARS FRONT 35 13",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "COBALT",
+    "year": "2007",
+    "location": "CARS FRONT 43 3",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "COBALT",
+    "year": "2009",
+    "location": "CARS FRONT 51 11",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2011",
+    "location": "CARS FRONT 51 9",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2012",
+    "location": "CARS FRONT 69 26",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2013",
+    "location": "CARS FRONT 33 4",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2014",
+    "location": "CARS FRONT 71 6",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2017",
+    "location": "CARS FRONT 70 8",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE",
+    "year": "2018",
+    "location": "CARS FRONT 71 4",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "CRUZE LIMITED",
+    "year": "2016",
+    "location": "CARS FRONT 65 23",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EQUINOX",
+    "year": "2006",
+    "location": "CARS FRONT 22 19",
+    "available": "11/18/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EQUINOX",
+    "year": "2011",
+    "location": "CARS FRONT 25 24",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EQUINOX",
+    "year": "2014",
+    "location": "CARS FRONT 35 11",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EQUINOX",
+    "year": "2019",
+    "location": "CARS FRONT 74 1",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EXPRESS 1500",
+    "year": "2008",
+    "location": "CARS FRONT 11 1",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EXPRESS 2500",
+    "year": "2005",
+    "location": "CARS FRONT 8 6",
+    "available": "11/22/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "EXPRESS 2500",
+    "year": "2007",
+    "location": "CARS FRONT 5 6",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "G20",
+    "year": "1994",
+    "location": "CARS FRONT 11 3",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "HHR",
+    "year": "2006",
+    "location": "CARS FRONT 43 11",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "HHR",
+    "year": "2007",
+    "location": "TRUCKS 1 8",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "HHR",
+    "year": "2010",
+    "location": "CARS FRONT 70 14",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2000",
+    "location": "CARS FRONT 27 11",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2001",
+    "location": "CARS FRONT 35 21",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2008",
+    "location": "CARS FRONT 59 15",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2010",
+    "location": "CARS FRONT 23 11",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2011",
+    "location": "CARS FRONT 27 14",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2012",
+    "location": "CARS FRONT 72 18",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "IMPALA",
+    "year": "2013",
+    "location": "CARS FRONT 28 10",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "K1500",
+    "year": "1997",
+    "location": "CARS FRONT 3 6",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2001",
+    "location": "CARS FRONT 67 5",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2002",
+    "location": "CARS FRONT 69 22",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2006",
+    "location": "TRUCKS 2 12",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2010",
+    "location": "CARS FRONT 67 26",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2012",
+    "location": "CARS FRONT 55 1",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2013",
+    "location": "CARS FRONT 21 19",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MALIBU",
+    "year": "2014",
+    "location": "CARS FRONT 71 20",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "MONTE CARLO",
+    "year": "2006",
+    "location": "CARS FRONT 31 19",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "S10",
+    "year": "2001",
+    "location": "TRUCKS 9 13",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "S10",
+    "year": "2002",
+    "location": "TRUCKS 9 14",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "1999",
+    "location": "CARS FRONT 10 6",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "2003",
+    "location": "TRUCKS 10 20",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "2004",
+    "location": "CARS FRONT 2 6",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "2005",
+    "location": "CARS FRONT 2 4",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "2006",
+    "location": "CARS FRONT 1 7",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500",
+    "year": "2008",
+    "location": "CARS FRONT 10 3",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 1500 CLASSIC",
+    "year": "2007",
+    "location": "TRUCKS 10 16",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 2500 HD",
+    "year": "2001",
+    "location": "TRUCKS 10 4",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SILVERADO 2500 HD",
+    "year": "2011",
+    "location": "CARS FRONT 8 1",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SONIC",
+    "year": "2013",
+    "location": "CARS FRONT 72 12",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SONIC",
+    "year": "2014",
+    "location": "CARS FRONT 23 20",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SUBURBAN",
+    "year": "2005",
+    "location": "CARS FRONT 11 9",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SUBURBAN 1500",
+    "year": "2000",
+    "location": "CARS FRONT 6 6",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SUBURBAN 1500",
+    "year": "2003",
+    "location": "TRUCKS 10 11",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SUBURBAN 1500",
+    "year": "2004",
+    "location": "TRUCKS 9 19",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "SUBURBAN 1500",
+    "year": "2008",
+    "location": "CARS FRONT 10 4",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "1997",
+    "location": "CARS FRONT 35 15",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "1999",
+    "location": "TRUCKS 1 12",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "2002",
+    "location": "CARS FRONT 71 23",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "2004",
+    "location": "TRUCKS 1 10",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "2011",
+    "location": "CARS FRONT 39 8",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TAHOE",
+    "year": "2012",
+    "location": "CARS FRONT 62 4",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAILBLAZER",
+    "year": "2002",
+    "location": "CARS FRONT 65 10",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAILBLAZER",
+    "year": "2003",
+    "location": "CARS FRONT 32 4",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAILBLAZER",
+    "year": "2004",
+    "location": "CARS FRONT 63 8",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAILBLAZER",
+    "year": "2006",
+    "location": "CARS FRONT 42 7",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAILBLAZER",
+    "year": "2007",
+    "location": "CARS FRONT 48 11",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAVERSE",
+    "year": "2010",
+    "location": "CARS FRONT 30 21",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAVERSE",
+    "year": "2011",
+    "location": "CARS FRONT 66 5",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "TRAVERSE",
+    "year": "2012",
+    "location": "CARS FRONT 64 4",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "UPLANDER",
+    "year": "2006",
+    "location": "CARS FRONT 29 8",
+    "available": "12/3/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "UPLANDER",
+    "year": "2007",
+    "location": "CARS FRONT 26 1",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "UPLANDER",
+    "year": "2008",
+    "location": "CARS FRONT 48 10",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "CHEVROLET",
+    "model": "VOLT",
+    "year": "2014",
+    "location": "CARS FRONT 45 5",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "200",
+    "year": "2011",
+    "location": "CARS FRONT 46 8",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "200",
+    "year": "2014",
+    "location": "CARS FRONT 69 19",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "200",
+    "year": "2015",
+    "location": "CARS FRONT 42 4",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "300",
+    "year": "2005",
+    "location": "CARS FRONT 69 8",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "300",
+    "year": "2007",
+    "location": "CARS FRONT 21 15",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "300",
+    "year": "2008",
+    "location": "CARS FRONT 63 1",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "ASPEN",
+    "year": "2007",
+    "location": "CARS FRONT 34 25",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "CONCORDE",
+    "year": "2002",
+    "location": "CARS FRONT 21 5",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "CROSSFIRE",
+    "year": "2004",
+    "location": "CARS FRONT 69 7",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "LEBARON",
+    "year": "1991",
+    "location": "CARS FRONT 28 18",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "PACIFICA",
+    "year": "2006",
+    "location": "CARS FRONT 27 12",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "PACIFICA",
+    "year": "2007",
+    "location": "CARS FRONT 29 19",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "PT CRUISER",
+    "year": "2006",
+    "location": "CARS FRONT 34 9",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "SEBRING",
+    "year": "2005",
+    "location": "CARS FRONT 59 9",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "SEBRING",
+    "year": "2008",
+    "location": "CARS FRONT 71 10",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2002",
+    "location": "CARS FRONT 30 20",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2005",
+    "location": "CARS FRONT 26 14",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2007",
+    "location": "CARS FRONT 46 5",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2010",
+    "location": "CARS FRONT 64 27",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2013",
+    "location": "CARS FRONT 49 8",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "year": "2014",
+    "location": "CARS FRONT 48 5",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "AVENGER",
+    "year": "2012",
+    "location": "CARS FRONT 20 1",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "AVENGER",
+    "year": "2013",
+    "location": "CARS FRONT 31 17",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "AVENGER",
+    "year": "2014",
+    "location": "CARS FRONT 60 14",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CALIBER",
+    "year": "2007",
+    "location": "CARS FRONT 64 15",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CALIBER",
+    "year": "2008",
+    "location": "CARS FRONT 70 17",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CALIBER",
+    "year": "2009",
+    "location": "CARS FRONT 74 5",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CALIBER",
+    "year": "2010",
+    "location": "CARS FRONT 52 7",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "CALIBER",
+    "year": "2011",
+    "location": "CARS FRONT 51 8",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "CARAVAN",
+    "year": "2004",
+    "location": "CARS FRONT 68 9",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CHARGER",
+    "year": "2009",
+    "location": "CARS FRONT 75 16",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "CHARGER",
+    "year": "2012",
+    "location": "CARS FRONT 61 19",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "D150",
+    "year": "1988",
+    "location": "TRUCKS 10 10",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "DAKOTA",
+    "year": "1991",
+    "location": "TRUCKS 9 10",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "DAKOTA",
+    "year": "2000",
+    "location": "CARS FRONT 9 2",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "DAKOTA",
+    "year": "2002",
+    "location": "CARS FRONT 6 9",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "DAKOTA",
+    "year": "2004",
+    "location": "CARS FRONT 11 8",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "DAKOTA",
+    "year": "2005",
+    "location": "TRUCKS 9 9",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "DART",
+    "year": "2013",
+    "location": "CARS FRONT 66 11",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "DURANGO",
+    "year": "2001",
+    "location": "CARS FRONT 33 14",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "DURANGO",
+    "year": "2003",
+    "location": "CARS FRONT 52 6",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "DURANGO",
+    "year": "2006",
+    "location": "CARS FRONT 36 5",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "1997",
+    "location": "CARS FRONT 71 24",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "1999",
+    "location": "CARS FRONT 70 3",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "2001",
+    "location": "CARS FRONT 67 23",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "2006",
+    "location": "TRUCKS 1 11",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "2007",
+    "location": "CARS FRONT 27 4",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "2009",
+    "location": "CARS FRONT 74 13",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "GRAND CARAVAN",
+    "year": "2012",
+    "location": "CARS FRONT 66 13",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "JOURNEY",
+    "year": "2009",
+    "location": "CARS FRONT 39 4",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "JOURNEY",
+    "year": "2010",
+    "location": "CARS FRONT 75 17",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "JOURNEY",
+    "year": "2014",
+    "location": "CARS FRONT 67 9",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "JOURNEY",
+    "year": "2018",
+    "location": "CARS FRONT 29 23",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "MAGNUM",
+    "year": "2006",
+    "location": "CARS FRONT 28 15",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "MAGNUM",
+    "year": "2007",
+    "location": "CARS FRONT 53 1",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "NEON",
+    "year": "1998",
+    "location": "CARS FRONT 51 2",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "NEON",
+    "year": "2005",
+    "location": "CARS FRONT 47 4",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM",
+    "year": "2008",
+    "location": "CARS FRONT 4 5",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "1996",
+    "location": "TRUCKS 9 8",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "1997",
+    "location": "CARS FRONT 4 1",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "1998",
+    "location": "CARS FRONT 2 7",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "1999",
+    "location": "CARS FRONT 4 6",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2000",
+    "location": "TRUCKS 11 9",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2001",
+    "location": "CARS FRONT 6 8",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2002",
+    "location": "CARS FRONT 6 2",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2003",
+    "location": "TRUCKS 10 2",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2004",
+    "location": "TRUCKS 11 4",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2005",
+    "location": "TRUCKS 10 18",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2006",
+    "location": "TRUCKS 10 7",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2007",
+    "location": "TRUCKS 11 7",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500",
+    "year": "2008",
+    "location": "CARS FRONT 3 1",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "RAM 1500 VAN",
+    "year": "2003",
+    "location": "CARS FRONT 8 9",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "DODGE",
+    "model": "STRATUS",
+    "year": "2000",
+    "location": "TRUCKS 1 26",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "FIAT",
+    "model": "500",
+    "year": "2013",
+    "location": "CARS FRONT 67 24",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "1997",
+    "location": "CARS FRONT 24 15",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2003",
+    "location": "CARS FRONT 26 20",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2004",
+    "location": "CARS FRONT 70 11",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2007",
+    "location": "CARS FRONT 75 13",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2008",
+    "location": "CARS FRONT 30 15",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2009",
+    "location": "CARS FRONT 30 3",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2010",
+    "location": "CARS FRONT 40 1",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "CROWN VICTORIA",
+    "year": "2011",
+    "location": "CARS FRONT 30 25",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-150",
+    "year": "2003",
+    "location": "CARS FRONT 10 2",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-150",
+    "year": "2005",
+    "location": "CARS FRONT 3 2",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-150 ECONOLINE",
+    "year": "1988",
+    "location": "CARS FRONT 5 8",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-150 ECONOLINE",
+    "year": "1999",
+    "location": "CARS FRONT 5 5",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-150 ECONOLINE",
+    "year": "2001",
+    "location": "CARS FRONT 9 3",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "E-250 ECONOLINE",
+    "year": "1996",
+    "location": "CARS FRONT 1 8",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EDGE",
+    "year": "2008",
+    "location": "CARS FRONT 61 21",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EDGE",
+    "year": "2010",
+    "location": "CARS FRONT 65 20",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EDGE",
+    "year": "2013",
+    "location": "CARS FRONT 60 4",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EDGE",
+    "year": "2014",
+    "location": "CARS FRONT 72 13",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2004",
+    "location": "CARS FRONT 54 5",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2005",
+    "location": "CARS FRONT 25 4",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2007",
+    "location": "CARS FRONT 47 2",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2008",
+    "location": "CARS FRONT 75 14",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2010",
+    "location": "CARS FRONT 63 6",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2012",
+    "location": "CARS FRONT 30 17",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2013",
+    "location": "CARS FRONT 67 18",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCAPE",
+    "year": "2014",
+    "location": "CARS FRONT 23 18",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "ESCORT",
+    "year": "2001",
+    "location": "CARS FRONT 75 6",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "1998",
+    "location": "CARS FRONT 28 5",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "1999",
+    "location": "CARS FRONT 58 6",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2000",
+    "location": "CARS FRONT 36 18",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2001",
+    "location": "CARS FRONT 27 21",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2003",
+    "location": "CARS FRONT 63 3",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2004",
+    "location": "CARS FRONT 68 12",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2005",
+    "location": "CARS FRONT 36 6",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2007",
+    "location": "CARS FRONT 66 8",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2008",
+    "location": "CARS FRONT 44 11",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPEDITION",
+    "year": "2010",
+    "location": "CARS FRONT 66 25",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "1995",
+    "location": "CARS FRONT 36 19",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "1998",
+    "location": "CARS FRONT 40 5",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "1999",
+    "location": "CARS FRONT 45 1",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2000",
+    "location": "TRUCKS 1 14",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2002",
+    "location": "CARS FRONT 42 3",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2003",
+    "location": "CARS FRONT 70 5",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2004",
+    "location": "CARS FRONT 53 5",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2005",
+    "location": "CARS FRONT 73 4",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2006",
+    "location": "CARS FRONT 73 20",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2007",
+    "location": "CARS FRONT 64 26",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2008",
+    "location": "CARS FRONT 39 6",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER",
+    "year": "2010",
+    "location": "CARS FRONT 33 9",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER SPORT",
+    "year": "2001",
+    "location": "CARS FRONT 42 10",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "EXPLORER SPORT TRAC",
+    "year": "2001",
+    "location": "TRUCKS 9 7",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "1985",
+    "location": "TRUCKS 9 18",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "1989",
+    "location": "CARS FRONT 1 2",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "1994",
+    "location": "CARS FRONT 8 5",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "1997",
+    "location": "CARS FRONT 5 7",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "1998",
+    "location": "TRUCKS 9 11",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2000",
+    "location": "TRUCKS 11 2",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2001",
+    "location": "TRUCKS 11 6",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2002",
+    "location": "TRUCKS 9 6",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2003",
+    "location": "TRUCKS 9 17",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2004",
+    "location": "TRUCKS 10 6",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2005",
+    "location": "TRUCKS 10 14",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2006",
+    "location": "TRUCKS 9 1",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2007",
+    "location": "CARS FRONT 6 4",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2008",
+    "location": "TRUCKS 9 16",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "F-150",
+    "year": "2009",
+    "location": "CARS FRONT 1 3",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "F-250 SUPER DUTY",
+    "year": "2004",
+    "location": "TRUCKS 11 5",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FIESTA",
+    "year": "2019",
+    "location": "CARS FRONT 50 3",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FIVE HUNDRED",
+    "year": "2005",
+    "location": "CARS FRONT 75 1",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FIVE HUNDRED",
+    "year": "2006",
+    "location": "TRUCKS 2 2",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FIVE HUNDRED",
+    "year": "2007",
+    "location": "CARS FRONT 33 18",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2000",
+    "location": "CARS FRONT 64 21",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2002",
+    "location": "TRUCKS 1 25",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2003",
+    "location": "CARS FRONT 61 2",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2005",
+    "location": "CARS FRONT 41 8",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2007",
+    "location": "CARS FRONT 72 23",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2010",
+    "location": "CARS FRONT 43 7",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2011",
+    "location": "CARS FRONT 72 5",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2012",
+    "location": "CARS FRONT 62 8",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2013",
+    "location": "CARS FRONT 35 5",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2014",
+    "location": "CARS FRONT 73 2",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2015",
+    "location": "CARS FRONT 67 20",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2016",
+    "location": "CARS FRONT 51 6",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FOCUS",
+    "year": "2017",
+    "location": "CARS FRONT 48 8",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FREESTAR",
+    "year": "2005",
+    "location": "CARS FRONT 61 20",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FREESTYLE",
+    "year": "2005",
+    "location": "CARS FRONT 66 6",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FREESTYLE",
+    "year": "2006",
+    "location": "CARS FRONT 69 17",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FUSION",
+    "year": "2006",
+    "location": "CARS FRONT 36 25",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "FUSION",
+    "year": "2010",
+    "location": "CARS FRONT 68 11",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FUSION",
+    "year": "2012",
+    "location": "CARS FRONT 66 20",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FUSION",
+    "year": "2015",
+    "location": "CARS FRONT 73 7",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "FUSION",
+    "year": "2016",
+    "location": "CARS FRONT 72 6",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "1994",
+    "location": "CARS FRONT 67 12",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "2003",
+    "location": "CARS FRONT 31 14",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "2004",
+    "location": "CARS FRONT 60 9",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "2006",
+    "location": "CARS FRONT 64 2",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "2008",
+    "location": "CARS FRONT 40 4",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "MUSTANG",
+    "year": "2012",
+    "location": "CARS FRONT 45 9",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "RANGER",
+    "year": "1996",
+    "location": "TRUCKS 10 9",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "RANGER",
+    "year": "1999",
+    "location": "CARS FRONT 4 2",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "RANGER",
+    "year": "2004",
+    "location": "CARS FRONT 6 3",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2000",
+    "location": "CARS FRONT 45 6",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2003",
+    "location": "CARS FRONT 65 5",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2004",
+    "location": "CARS FRONT 68 4",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2005",
+    "location": "CARS FRONT 66 17",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2006",
+    "location": "CARS FRONT 67 6",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TAURUS",
+    "year": "2008",
+    "location": "CARS FRONT 54 7",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "FORD",
+    "model": "TRANSIT CONNECT",
+    "year": "2010",
+    "location": "CARS FRONT 50 7",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "WINDSTAR",
+    "year": "1995",
+    "location": "CARS FRONT 51 4",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "FORD",
+    "model": "WINDSTAR",
+    "year": "2003",
+    "location": "CARS FRONT 26 13",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "GMC",
+    "model": "ACADIA",
+    "year": "2008",
+    "location": "CARS FRONT 64 16",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ACADIA",
+    "year": "2010",
+    "location": "TRUCKS 1 16",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ACADIA",
+    "year": "2011",
+    "location": "CARS FRONT 69 9",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ACADIA",
+    "year": "2012",
+    "location": "CARS FRONT 72 17",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "C1500",
+    "year": "1998",
+    "location": "CARS FRONT 6 7",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "C2500",
+    "year": "1995",
+    "location": "TRUCKS 10 13",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ENVOY",
+    "year": "2002",
+    "location": "CARS FRONT 29 2",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "GMC",
+    "model": "ENVOY",
+    "year": "2003",
+    "location": "CARS FRONT 75 9",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ENVOY",
+    "year": "2005",
+    "location": "CARS FRONT 56 6",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "ENVOY XL",
+    "year": "2003",
+    "location": "CARS FRONT 24 6",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "GMC",
+    "model": "ENVOY XL",
+    "year": "2005",
+    "location": "CARS FRONT 32 23",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "GMC",
+    "model": "SIERRA 1500",
+    "year": "2001",
+    "location": "TRUCKS 9 20",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "SIERRA 1500",
+    "year": "2003",
+    "location": "TRUCKS 9 4",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "SIERRA 2500 HD",
+    "year": "2001",
+    "location": "TRUCKS 11 8",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "TERRAIN",
+    "year": "2013",
+    "location": "CARS FRONT 63 14",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON",
+    "year": "1996",
+    "location": "CARS FRONT 70 1",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON",
+    "year": "2000",
+    "location": "CARS FRONT 72 22",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON",
+    "year": "2002",
+    "location": "CARS FRONT 35 8",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON",
+    "year": "2006",
+    "location": "CARS FRONT 72 10",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON XL 1500",
+    "year": "2003",
+    "location": "TRUCKS 9 15",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "GMC",
+    "model": "YUKON XL 1500",
+    "year": "2005",
+    "location": "TRUCKS 11 1",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "1990",
+    "location": "CARS FRONT 71 11",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "1996",
+    "location": "CARS FRONT 67 8",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "1998",
+    "location": "CARS FRONT 71 21",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "1999",
+    "location": "CARS FRONT 65 13",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2000",
+    "location": "CARS FRONT 70 21",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2001",
+    "location": "CARS FRONT 69 3",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2002",
+    "location": "CARS FRONT 68 8",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2004",
+    "location": "CARS FRONT 70 26",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2005",
+    "location": "CARS FRONT 72 1",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2006",
+    "location": "CARS FRONT 63 17",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2007",
+    "location": "CARS FRONT 68 18",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2008",
+    "location": "CARS FRONT 74 17",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2009",
+    "location": "CARS FRONT 75 3",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ACCORD",
+    "year": "2012",
+    "location": "CARS FRONT 51 1",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "1997",
+    "location": "CARS FRONT 58 4",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2002",
+    "location": "CARS FRONT 30 12",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2003",
+    "location": "CARS FRONT 72 15",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2004",
+    "location": "CARS FRONT 66 22",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2006",
+    "location": "CARS FRONT 67 3",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2007",
+    "location": "CARS FRONT 29 14",
+    "available": "12/3/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2008",
+    "location": "CARS FRONT 71 15",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2009",
+    "location": "CARS FRONT 68 14",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CIVIC",
+    "year": "2011",
+    "location": "TRUCKS 2 9",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "1998",
+    "location": "CARS FRONT 67 16",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "1999",
+    "location": "CARS FRONT 60 11",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "2003",
+    "location": "CARS FRONT 24 16",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "2004",
+    "location": "CARS FRONT 25 17",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "2011",
+    "location": "CARS FRONT 34 4",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-V",
+    "year": "2014",
+    "location": "CARS FRONT 18 13",
+    "available": "11/10/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "CR-Z",
+    "year": "2014",
+    "location": "CARS FRONT 22 1",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ELEMENT",
+    "year": "2003",
+    "location": "CARS FRONT 66 26",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "FIT",
+    "year": "2008",
+    "location": "CARS FRONT 68 16",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "INSIGHT",
+    "year": "2003",
+    "location": "CARS FRONT 40 3",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "INSIGHT",
+    "year": "2010",
+    "location": "CARS FRONT 24 2",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "1996",
+    "location": "CARS FRONT 60 8",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2000",
+    "location": "CARS FRONT 35 3",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2003",
+    "location": "CARS FRONT 53 2",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2004",
+    "location": "CARS FRONT 51 10",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2005",
+    "location": "CARS FRONT 19 1",
+    "available": "11/10/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2006",
+    "location": "CARS FRONT 65 26",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2007",
+    "location": "CARS FRONT 44 6",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2008",
+    "location": "CARS FRONT 49 5",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2009",
+    "location": "CARS FRONT 19 5",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2010",
+    "location": "CARS FRONT 54 6",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "ODYSSEY",
+    "year": "2012",
+    "location": "CARS FRONT 73 16",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2003",
+    "location": "CARS FRONT 67 21",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2006",
+    "location": "CARS FRONT 65 6",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2007",
+    "location": "CARS FRONT 65 2",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2008",
+    "location": "CARS FRONT 64 7",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2009",
+    "location": "CARS FRONT 65 3",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2011",
+    "location": "CARS FRONT 61 8",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "HONDA",
+    "model": "PILOT",
+    "year": "2015",
+    "location": "CARS FRONT 19 7",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "HUMMER",
+    "model": "H3",
+    "year": "2007",
+    "location": "CARS FRONT 64 5",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HUMMER",
+    "model": "H3",
+    "year": "2008",
+    "location": "CARS FRONT 39 3",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ACCENT",
+    "year": "2001",
+    "location": "CARS FRONT 27 8",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ACCENT",
+    "year": "2005",
+    "location": "CARS FRONT 49 9",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ACCENT",
+    "year": "2009",
+    "location": "CARS FRONT 54 1",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ACCENT",
+    "year": "2010",
+    "location": "CARS FRONT 21 4",
+    "available": "11/13/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ACCENT",
+    "year": "2013",
+    "location": "CARS FRONT 72 2",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "AZERA",
+    "year": "2006",
+    "location": "CARS FRONT 68 24",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2000",
+    "location": "CARS FRONT 26 21",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2004",
+    "location": "CARS FRONT 23 15",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2006",
+    "location": "CARS FRONT 75 5",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2007",
+    "location": "CARS FRONT 49 7",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2008",
+    "location": "CARS FRONT 30 16",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2009",
+    "location": "CARS FRONT 61 3",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2010",
+    "location": "CARS FRONT 46 2",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA",
+    "year": "2012",
+    "location": "CARS FRONT 64 9",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA COUPE",
+    "year": "2014",
+    "location": "CARS FRONT 25 2",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "ELANTRA GT",
+    "year": "2016",
+    "location": "CARS FRONT 65 25",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "GENESIS",
+    "year": "2012",
+    "location": "CARS FRONT 68 22",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2001",
+    "location": "CARS FRONT 61 1",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2004",
+    "location": "CARS FRONT 71 16",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2005",
+    "location": "CARS FRONT 71 14",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2007",
+    "location": "CARS FRONT 64 18",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2008",
+    "location": "CARS FRONT 34 2",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE",
+    "year": "2009",
+    "location": "CARS FRONT 69 21",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SANTA FE SPORT",
+    "year": "2018",
+    "location": "CARS FRONT 63 20",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SONATA",
+    "year": "2005",
+    "location": "CARS FRONT 64 17",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SONATA",
+    "year": "2006",
+    "location": "CARS FRONT 73 8",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SONATA",
+    "year": "2009",
+    "location": "CARS FRONT 70 25",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SONATA",
+    "year": "2012",
+    "location": "CARS FRONT 48 2",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "SONATA",
+    "year": "2013",
+    "location": "CARS FRONT 69 15",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "HYUNDAI",
+    "model": "TIBURON",
+    "year": "2006",
+    "location": "CARS FRONT 56 8",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "EX35",
+    "year": "2008",
+    "location": "CARS FRONT 73 1",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "EX35",
+    "year": "2011",
+    "location": "CARS FRONT 24 7",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "FX35",
+    "year": "2005",
+    "location": "CARS FRONT 23 14",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "FX35",
+    "year": "2008",
+    "location": "CARS FRONT 47 3",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G20",
+    "year": "1993",
+    "location": "CARS FRONT 58 9",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G35",
+    "year": "2004",
+    "location": "CARS FRONT 73 10",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G35",
+    "year": "2005",
+    "location": "CARS FRONT 69 16",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G35",
+    "year": "2006",
+    "location": "CARS FRONT 22 15",
+    "available": "11/18/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G35",
+    "year": "2008",
+    "location": "CARS FRONT 32 16",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G37",
+    "year": "2009",
+    "location": "CARS FRONT 22 17",
+    "available": "11/18/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "G37",
+    "year": "2010",
+    "location": "CARS FRONT 44 10",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "INFINITI",
+    "model": "M35H",
+    "year": "2012",
+    "location": "CARS FRONT 54 11",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "QX4",
+    "year": "2001",
+    "location": "CARS FRONT 69 20",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "QX56",
+    "year": "2012",
+    "location": "CARS FRONT 72 21",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "QX60",
+    "year": "2014",
+    "location": "CARS FRONT 68 2",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "INFINITI",
+    "model": "QX60",
+    "year": "2016",
+    "location": "CARS FRONT 23 9",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "ISUZU",
+    "model": "ASCENDER",
+    "year": "2004",
+    "location": "CARS FRONT 49 4",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "ISUZU",
+    "model": "RODEO",
+    "year": "2001",
+    "location": "CARS FRONT 65 15",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "ISUZU",
+    "model": "RODEO",
+    "year": "2004",
+    "location": "CARS FRONT 42 2",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "ISUZU",
+    "model": "TROOPER",
+    "year": "2002",
+    "location": "CARS FRONT 39 5",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "JAGUAR",
+    "model": "VANDEN PLAS",
+    "year": "1996",
+    "location": "CARS FRONT 69 10",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "JAGUAR",
+    "model": "XF",
+    "year": "2009",
+    "location": "CARS FRONT 71 22",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "JAGUAR",
+    "model": "XJ6",
+    "year": "1997",
+    "location": "CARS FRONT 51 3",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "JAGUAR",
+    "model": "XJS",
+    "year": "1987",
+    "location": "CARS FRONT 25 22",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "JAGUAR",
+    "model": "XJS",
+    "year": "1989",
+    "location": "CARS FRONT 24 19",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "JEEP",
+    "model": "CHEROKEE",
+    "year": "2016",
+    "location": "CARS FRONT 68 17",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "COMMANDER",
+    "year": "2006",
+    "location": "CARS FRONT 74 16",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "1996",
+    "location": "CARS FRONT 25 25",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "1997",
+    "location": "CARS FRONT 47 7",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "1998",
+    "location": "CARS FRONT 55 8",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2001",
+    "location": "TRUCKS 2 6",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2002",
+    "location": "CARS FRONT 71 9",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2004",
+    "location": "TRUCKS 1 1",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2005",
+    "location": "CARS FRONT 68 7",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2007",
+    "location": "CARS FRONT 72 20",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "year": "2008",
+    "location": "CARS FRONT 73 12",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2003",
+    "location": "CARS FRONT 75 4",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2004",
+    "location": "CARS FRONT 62 6",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2005",
+    "location": "CARS FRONT 36 14",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2006",
+    "location": "CARS FRONT 63 9",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2008",
+    "location": "CARS FRONT 65 22",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2010",
+    "location": "CARS FRONT 67 2",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "LIBERTY",
+    "year": "2012",
+    "location": "CARS FRONT 68 27",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "JEEP",
+    "model": "WRANGLER",
+    "year": "1995",
+    "location": "TRUCKS 10 1",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "FORTE",
+    "year": "2010",
+    "location": "CARS FRONT 53 10",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "FORTE",
+    "year": "2015",
+    "location": "CARS FRONT 64 24",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "OPTIMA",
+    "year": "2006",
+    "location": "CARS FRONT 33 21",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "OPTIMA",
+    "year": "2009",
+    "location": "TRUCKS 1 30",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "OPTIMA",
+    "year": "2013",
+    "location": "CARS FRONT 75 15",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "RIO",
+    "year": "2001",
+    "location": "CARS FRONT 32 14",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "RIO5",
+    "year": "2009",
+    "location": "CARS FRONT 24 8",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SEPHIA",
+    "year": "2001",
+    "location": "CARS FRONT 68 20",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SORENTO",
+    "year": "2004",
+    "location": "CARS FRONT 21 10",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SORENTO",
+    "year": "2005",
+    "location": "CARS FRONT 48 4",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SORENTO",
+    "year": "2007",
+    "location": "CARS FRONT 47 11",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SORENTO",
+    "year": "2008",
+    "location": "CARS FRONT 26 6",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SORENTO",
+    "year": "2012",
+    "location": "CARS FRONT 35 6",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SOUL",
+    "year": "2010",
+    "location": "CARS FRONT 68 15",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SOUL",
+    "year": "2012",
+    "location": "CARS FRONT 55 9",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SOUL",
+    "year": "2016",
+    "location": "CARS FRONT 34 12",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SPECTRA",
+    "year": "2004",
+    "location": "CARS FRONT 65 18",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SPECTRA",
+    "year": "2005",
+    "location": "CARS FRONT 63 26",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SPECTRA",
+    "year": "2006",
+    "location": "CARS FRONT 40 10",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "KIA",
+    "model": "SPECTRA",
+    "year": "2007",
+    "location": "CARS FRONT 61 16",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "KIA",
+    "model": "SPECTRA5",
+    "year": "2006",
+    "location": "CARS FRONT 36 12",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "LAND",
+    "model": "ROVER DISCOVERY",
+    "year": "2003",
+    "location": "CARS FRONT 19 17",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "LAND",
+    "model": "ROVER LR3",
+    "year": "2008",
+    "location": "CARS FRONT 40 7",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "LAND",
+    "model": "ROVER RANGE ROVER SPORT",
+    "year": "2011",
+    "location": "CARS FRONT 70 15",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES300",
+    "year": "1997",
+    "location": "CARS FRONT 60 2",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES300",
+    "year": "1998",
+    "location": "CARS FRONT 56 5",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES300",
+    "year": "2002",
+    "location": "CARS FRONT 48 7",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES330",
+    "year": "2005",
+    "location": "CARS FRONT 63 10",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES350",
+    "year": "2010",
+    "location": "CARS FRONT 66 3",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "ES350",
+    "year": "2011",
+    "location": "CARS FRONT 65 16",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "GS300",
+    "year": "2001",
+    "location": "CARS FRONT 34 23",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "GS300",
+    "year": "2002",
+    "location": "CARS FRONT 33 6",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "GS300",
+    "year": "2006",
+    "location": "CARS FRONT 62 9",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "GS430",
+    "year": "2002",
+    "location": "CARS FRONT 34 1",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "IS 250",
+    "year": "2008",
+    "location": "CARS FRONT 66 12",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "LS400",
+    "year": "1998",
+    "location": "CARS FRONT 53 7",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "RX300",
+    "year": "2000",
+    "location": "CARS FRONT 33 25",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "RX300",
+    "year": "2003",
+    "location": "CARS FRONT 35 17",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "RX330",
+    "year": "2004",
+    "location": "CARS FRONT 69 14",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "LEXUS",
+    "model": "RX400H",
+    "year": "2007",
+    "location": "CARS FRONT 34 14",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "LEXUS",
+    "model": "SC300",
+    "year": "1999",
+    "location": "CARS FRONT 46 11",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "MKZ",
+    "year": "2007",
+    "location": "CARS FRONT 62 10",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "MKZ",
+    "year": "2012",
+    "location": "CARS FRONT 21 9",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "NAVIGATOR",
+    "year": "2003",
+    "location": "CARS FRONT 69 6",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "NAVIGATOR",
+    "year": "2004",
+    "location": "CARS FRONT 66 9",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "NAVIGATOR",
+    "year": "2007",
+    "location": "CARS FRONT 55 5",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "TOWN CAR",
+    "year": "1994",
+    "location": "CARS FRONT 34 17",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "LINCOLN",
+    "model": "TOWN CAR",
+    "year": "2006",
+    "location": "CARS FRONT 47 5",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "2",
+    "year": "2014",
+    "location": "TRUCKS 1 23",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2004",
+    "location": "CARS FRONT 61 14",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2005",
+    "location": "CARS FRONT 36 4",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2006",
+    "location": "CARS FRONT 30 14",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2007",
+    "location": "CARS FRONT 25 16",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2008",
+    "location": "TRUCKS 1 4",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2009",
+    "location": "CARS FRONT 57 4",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2010",
+    "location": "CARS FRONT 74 7",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2011",
+    "location": "CARS FRONT 65 11",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2012",
+    "location": "CARS FRONT 39 1",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2013",
+    "location": "CARS FRONT 74 8",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "3",
+    "year": "2014",
+    "location": "CARS FRONT 30 19",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "6",
+    "year": "2003",
+    "location": "CARS FRONT 20 14",
+    "available": "11/13/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "6",
+    "year": "2012",
+    "location": "CARS FRONT 71 18",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "B2300",
+    "year": "2008",
+    "location": "CARS FRONT 9 4",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "MIATA",
+    "year": "1999",
+    "location": "CARS FRONT 73 11",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "PROTEGE",
+    "year": "2001",
+    "location": "CARS FRONT 33 3",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "PROTEGE",
+    "year": "2002",
+    "location": "CARS FRONT 26 3",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "MAZDA",
+    "model": "PROTEGE",
+    "year": "2003",
+    "location": "TRUCKS 1 2",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "TRIBUTE",
+    "year": "2002",
+    "location": "TRUCKS 1 3",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "TRIBUTE",
+    "year": "2005",
+    "location": "CARS FRONT 75 18",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "TRIBUTE",
+    "year": "2006",
+    "location": "CARS FRONT 69 13",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "MAZDA",
+    "model": "TRIBUTE",
+    "year": "2008",
+    "location": "CARS FRONT 20 10",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C230",
+    "year": "2004",
+    "location": "CARS FRONT 36 22",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C230",
+    "year": "2005",
+    "location": "CARS FRONT 65 19",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C230",
+    "year": "2006",
+    "location": "CARS FRONT 35 9",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C240",
+    "year": "2003",
+    "location": "CARS FRONT 70 23",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C240",
+    "year": "2005",
+    "location": "CARS FRONT 74 10",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C250",
+    "year": "2012",
+    "location": "CARS FRONT 72 14",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C250",
+    "year": "2013",
+    "location": "CARS FRONT 55 3",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C300",
+    "year": "2010",
+    "location": "CARS FRONT 24 4",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C300",
+    "year": "2011",
+    "location": "CARS FRONT 39 7",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "C300",
+    "year": "2012",
+    "location": "CARS FRONT 33 20",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "CLK430",
+    "year": "2000",
+    "location": "CARS FRONT 48 9",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "CLK430",
+    "year": "2002",
+    "location": "CARS FRONT 25 18",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "CLS500",
+    "year": "2006",
+    "location": "CARS FRONT 72 3",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "E320",
+    "year": "2003",
+    "location": "CARS FRONT 28 22",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "E320",
+    "year": "2004",
+    "location": "CARS FRONT 31 6",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "E350",
+    "year": "2013",
+    "location": "CARS FRONT 52 8",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "E350",
+    "year": "2014",
+    "location": "CARS FRONT 36 23",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "E430",
+    "year": "2000",
+    "location": "CARS FRONT 64 12",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "GL320",
+    "year": "2009",
+    "location": "CARS FRONT 33 22",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "GL450",
+    "year": "2010",
+    "location": "CARS FRONT 69 18",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "ML320",
+    "year": "1998",
+    "location": "CARS FRONT 24 5",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "ML320",
+    "year": "2008",
+    "location": "CARS FRONT 72 9",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "ML350",
+    "year": "2003",
+    "location": "CARS FRONT 65 12",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "ML350",
+    "year": "2006",
+    "location": "CARS FRONT 53 6",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "ML350",
+    "year": "2007",
+    "location": "CARS FRONT 60 6",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "MERCEDES-BENZ",
+    "model": "SLK320",
+    "year": "2003",
+    "location": "CARS FRONT 46 4",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "COUGAR",
+    "year": "1997",
+    "location": "CARS FRONT 30 22",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "1996",
+    "location": "CARS FRONT 41 9",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "1998",
+    "location": "CARS FRONT 25 5",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "2000",
+    "location": "CARS FRONT 74 18",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "2001",
+    "location": "CARS FRONT 28 13",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "2003",
+    "location": "CARS FRONT 35 4",
+    "available": "12/13/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "GRAND MARQUIS",
+    "year": "2004",
+    "location": "CARS FRONT 63 2",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MARINER",
+    "year": "2010",
+    "location": "CARS FRONT 26 17",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MILAN",
+    "year": "2006",
+    "location": "CARS FRONT 34 18",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MOUNTAINEER",
+    "year": "1999",
+    "location": "CARS FRONT 32 17",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MOUNTAINEER",
+    "year": "2004",
+    "location": "CARS FRONT 68 23",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MOUNTAINEER",
+    "year": "2005",
+    "location": "CARS FRONT 69 25",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "MERCURY",
+    "model": "MOUNTAINEER",
+    "year": "2010",
+    "location": "CARS FRONT 65 17",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "MERCURY",
+    "model": "SABLE",
+    "year": "2002",
+    "location": "CARS FRONT 22 14",
+    "available": "11/18/2025"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER",
+    "year": "2003",
+    "location": "CARS FRONT 22 3",
+    "available": "11/17/2025"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER",
+    "year": "2007",
+    "location": "CARS FRONT 59 3",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER",
+    "year": "2008",
+    "location": "CARS FRONT 60 12",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER",
+    "year": "2010",
+    "location": "CARS FRONT 63 18",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER",
+    "year": "2011",
+    "location": "CARS FRONT 69 1",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER COUNTRYMAN",
+    "year": "2011",
+    "location": "CARS FRONT 34 19",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "MINI",
+    "model": "COOPER COUNTRYMAN",
+    "year": "2014",
+    "location": "CARS FRONT 61 13",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "ECLIPSE",
+    "year": "2007",
+    "location": "CARS FRONT 27 5",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "ECLIPSE",
+    "year": "2008",
+    "location": "CARS FRONT 27 1",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "ENDEAVOR",
+    "year": "2005",
+    "location": "CARS FRONT 36 7",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "ENDEAVOR",
+    "year": "2007",
+    "location": "CARS FRONT 70 12",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "ENDEAVOR",
+    "year": "2008",
+    "location": "CARS FRONT 36 3",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "GALANT",
+    "year": "2000",
+    "location": "CARS FRONT 50 6",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "GALANT",
+    "year": "2006",
+    "location": "CARS FRONT 64 20",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "GALANT",
+    "year": "2010",
+    "location": "TRUCKS 1 28",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "GALANT",
+    "year": "2011",
+    "location": "CARS FRONT 64 23",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "GALANT",
+    "year": "2012",
+    "location": "CARS FRONT 31 9",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "LANCER",
+    "year": "2003",
+    "location": "CARS FRONT 70 20",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "LANCER",
+    "year": "2008",
+    "location": "CARS FRONT 73 3",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "LANCER",
+    "year": "2009",
+    "location": "CARS FRONT 27 17",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "LANCER",
+    "year": "2017",
+    "location": "CARS FRONT 63 13",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "MIRAGE",
+    "year": "2015",
+    "location": "CARS FRONT 59 11",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "MITSUBISHI",
+    "model": "MONTERO SPORT",
+    "year": "2003",
+    "location": "CARS FRONT 71 26",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "1998",
+    "location": "CARS FRONT 58 10",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2000",
+    "location": "CARS FRONT 30 6",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2001",
+    "location": "CARS FRONT 29 1",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2002",
+    "location": "CARS FRONT 32 10",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2004",
+    "location": "CARS FRONT 66 14",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2005",
+    "location": "CARS FRONT 71 2",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2006",
+    "location": "CARS FRONT 73 18",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2007",
+    "location": "CARS FRONT 40 9",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2008",
+    "location": "TRUCKS 1 6",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2009",
+    "location": "CARS FRONT 72 8",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2010",
+    "location": "CARS FRONT 36 10",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2011",
+    "location": "CARS FRONT 32 5",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2012",
+    "location": "CARS FRONT 74 6",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2013",
+    "location": "CARS FRONT 62 14",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2014",
+    "location": "CARS FRONT 71 17",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2015",
+    "location": "TRUCKS 1 15",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ALTIMA",
+    "year": "2017",
+    "location": "CARS FRONT 53 3",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ARMADA",
+    "year": "2005",
+    "location": "TRUCKS 1 17",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ARMADA",
+    "year": "2008",
+    "location": "CARS FRONT 49 10",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "FRONTIER",
+    "year": "2001",
+    "location": "TRUCKS 9 3",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "FRONTIER",
+    "year": "2003",
+    "location": "CARS FRONT 5 1",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "FRONTIER",
+    "year": "2017",
+    "location": "TRUCKS 10 8",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "JUKE",
+    "year": "2013",
+    "location": "CARS FRONT 50 4",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "LEAF",
+    "year": "2011",
+    "location": "CARS FRONT 24 1",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2002",
+    "location": "CARS FRONT 52 1",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2003",
+    "location": "CARS FRONT 41 11",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2005",
+    "location": "CARS FRONT 25 3",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2008",
+    "location": "CARS FRONT 74 4",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2010",
+    "location": "CARS FRONT 66 1",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2011",
+    "location": "CARS FRONT 52 4",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2013",
+    "location": "CARS FRONT 50 10",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MAXIMA",
+    "year": "2016",
+    "location": "CARS FRONT 70 22",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2003",
+    "location": "CARS FRONT 74 12",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2004",
+    "location": "CARS FRONT 28 21",
+    "available": "12/1/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2006",
+    "location": "CARS FRONT 67 22",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2007",
+    "location": "CARS FRONT 36 9",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2009",
+    "location": "TRUCKS 2 11",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2010",
+    "location": "CARS FRONT 46 1",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2012",
+    "location": "CARS FRONT 62 21",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "MURANO",
+    "year": "2013",
+    "location": "CARS FRONT 27 7",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "NV200",
+    "year": "2016",
+    "location": "CARS FRONT 27 10",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER",
+    "year": "2001",
+    "location": "CARS FRONT 56 1",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER",
+    "year": "2005",
+    "location": "CARS FRONT 70 13",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER",
+    "year": "2006",
+    "location": "CARS FRONT 27 15",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER",
+    "year": "2008",
+    "location": "CARS FRONT 72 4",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER",
+    "year": "2009",
+    "location": "CARS FRONT 64 8",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PATHFINDER ARMADA",
+    "year": "2004",
+    "location": "CARS FRONT 29 12",
+    "available": "12/3/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "PULSAR NX",
+    "year": "1989",
+    "location": "CARS FRONT 34 13",
+    "available": "12/12/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "QUEST",
+    "year": "2001",
+    "location": "CARS FRONT 43 4",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "QUEST",
+    "year": "2005",
+    "location": "TRUCKS 2 7",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "QUEST",
+    "year": "2006",
+    "location": "CARS FRONT 75 10",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "QUEST",
+    "year": "2007",
+    "location": "CARS FRONT 27 9",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2010",
+    "location": "CARS FRONT 44 3",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2011",
+    "location": "TRUCKS 1 20",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2012",
+    "location": "TRUCKS 2 4",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2013",
+    "location": "CARS FRONT 74 3",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2014",
+    "location": "CARS FRONT 30 11",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE",
+    "year": "2016",
+    "location": "TRUCKS 2 5",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE SELECT",
+    "year": "2015",
+    "location": "TRUCKS 1 13",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "ROGUE SPORT",
+    "year": "2021",
+    "location": "CARS FRONT 31 13",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "1989",
+    "location": "CARS FRONT 20 9",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2001",
+    "location": "TRUCKS 2 10",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2002",
+    "location": "CARS FRONT 26 18",
+    "available": "11/28/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2003",
+    "location": "CARS FRONT 46 3",
+    "available": "12/26/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2006",
+    "location": "CARS FRONT 31 20",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2007",
+    "location": "CARS FRONT 66 16",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2008",
+    "location": "CARS FRONT 63 24",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2012",
+    "location": "CARS FRONT 67 1",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2014",
+    "location": "CARS FRONT 69 23",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2015",
+    "location": "CARS FRONT 64 11",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "SENTRA",
+    "year": "2019",
+    "location": "CARS FRONT 74 2",
+    "available": "1/30/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "TITAN",
+    "year": "2004",
+    "location": "CARS FRONT 5 4",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA",
+    "year": "2008",
+    "location": "CARS FRONT 23 2",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA",
+    "year": "2012",
+    "location": "CARS FRONT 75 11",
+    "available": "1/31/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA",
+    "year": "2013",
+    "location": "CARS FRONT 31 11",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA",
+    "year": "2014",
+    "location": "CARS FRONT 54 3",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA",
+    "year": "2015",
+    "location": "CARS FRONT 59 12",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA NOTE",
+    "year": "2014",
+    "location": "CARS FRONT 70 4",
+    "available": "1/23/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "VERSA NOTE",
+    "year": "2015",
+    "location": "CARS FRONT 73 17",
+    "available": "1/28/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "XTERRA",
+    "year": "2000",
+    "location": "CARS FRONT 22 8",
+    "available": "11/17/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "XTERRA",
+    "year": "2001",
+    "location": "CARS FRONT 48 3",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "NISSAN",
+    "model": "XTERRA",
+    "year": "2002",
+    "location": "CARS FRONT 68 13",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "XTERRA",
+    "year": "2004",
+    "location": "CARS FRONT 62 23",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "NISSAN",
+    "model": "XTERRA",
+    "year": "2007",
+    "location": "CARS FRONT 63 7",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "OLDSMOBILE",
+    "model": "CUTLASS CIERA",
+    "year": "1991",
+    "location": "CARS FRONT 23 10",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "OLDSMOBILE",
+    "model": "INTRIGUE",
+    "year": "1999",
+    "location": "CARS FRONT 52 5",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "BONNEVILLE",
+    "year": "2002",
+    "location": "CARS FRONT 20 5",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "FIERO",
+    "year": "1986",
+    "location": "CARS FRONT 33 15",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "G6",
+    "year": "2007",
+    "location": "CARS FRONT 59 14",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "G6",
+    "year": "2008",
+    "location": "CARS FRONT 20 8",
+    "available": "11/12/2025"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "GRAND PRIX",
+    "year": "2004",
+    "location": "CARS FRONT 63 21",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "GRAND PRIX",
+    "year": "2005",
+    "location": "CARS FRONT 63 25",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "GRAND PRIX",
+    "year": "2006",
+    "location": "CARS FRONT 30 18",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "PONTIAC",
+    "model": "VIBE",
+    "year": "2009",
+    "location": "CARS FRONT 20 16",
+    "available": "11/13/2025"
+  },
+  {
+    "make": "PORSCHE",
+    "model": "CAYENNE",
+    "year": "2004",
+    "location": "CARS FRONT 60 18",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "RAM",
+    "model": "1500 CLASSIC",
+    "year": "2019",
+    "location": "CARS FRONT 5 3",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "SATURN",
+    "model": "AURA",
+    "year": "2008",
+    "location": "CARS FRONT 35 20",
+    "available": "12/15/2025"
+  },
+  {
+    "make": "SATURN",
+    "model": "ION",
+    "year": "2007",
+    "location": "CARS FRONT 65 14",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "SATURN",
+    "model": "SL1",
+    "year": "2001",
+    "location": "CARS FRONT 70 18",
+    "available": "1/22/2026"
+  },
+  {
+    "make": "SATURN",
+    "model": "SL2",
+    "year": "1996",
+    "location": "CARS FRONT 57 1",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "SATURN",
+    "model": "VUE",
+    "year": "2005",
+    "location": "CARS FRONT 55 2",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "SATURN",
+    "model": "VUE",
+    "year": "2006",
+    "location": "CARS FRONT 58 7",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "SCION",
+    "model": "TC",
+    "year": "2008",
+    "location": "CARS FRONT 75 7",
+    "available": "2/2/2026"
+  },
+  {
+    "make": "SCION",
+    "model": "XB",
+    "year": "2012",
+    "location": "CARS FRONT 25 15",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "SCION",
+    "model": "XD",
+    "year": "2008",
+    "location": "CARS FRONT 25 6",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "FORESTER",
+    "year": "1999",
+    "location": "CARS FRONT 31 2",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "FORESTER",
+    "year": "2000",
+    "location": "CARS FRONT 72 16",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "SUBARU",
+    "model": "FORESTER",
+    "year": "2006",
+    "location": "CARS FRONT 22 12",
+    "available": "11/17/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "FORESTER",
+    "year": "2007",
+    "location": "CARS FRONT 24 17",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "FORESTER",
+    "year": "2008",
+    "location": "CARS FRONT 43 8",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "IMPREZA",
+    "year": "2006",
+    "location": "CARS FRONT 29 21",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "LEGACY",
+    "year": "1997",
+    "location": "CARS FRONT 56 7",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "SUBARU",
+    "model": "LEGACY",
+    "year": "2002",
+    "location": "CARS FRONT 36 21",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "LEGACY",
+    "year": "2005",
+    "location": "CARS FRONT 71 12",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "SUBARU",
+    "model": "OUTBACK",
+    "year": "2001",
+    "location": "CARS FRONT 31 1",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "SUBARU",
+    "model": "OUTBACK",
+    "year": "2012",
+    "location": "CARS FRONT 65 1",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "FORENZA",
+    "year": "2004",
+    "location": "CARS FRONT 24 12",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "FORENZA",
+    "year": "2006",
+    "location": "CARS FRONT 53 8",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "GRAND VITARA",
+    "year": "2008",
+    "location": "CARS FRONT 60 16",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "KIZASHI",
+    "year": "2010",
+    "location": "CARS FRONT 61 4",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "SWIFT",
+    "year": "2001",
+    "location": "CARS FRONT 21 20",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "SX4",
+    "year": "2011",
+    "location": "CARS FRONT 59 4",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "SUZUKI",
+    "model": "VITARA",
+    "year": "2001",
+    "location": "CARS FRONT 56 4",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "4RUNNER",
+    "year": "2006",
+    "location": "CARS FRONT 59 1",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "AVALON",
+    "year": "1998",
+    "location": "CARS FRONT 23 13",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "AVALON",
+    "year": "2000",
+    "location": "TRUCKS 1 24",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "AVALON",
+    "year": "2001",
+    "location": "CARS FRONT 29 3",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "AVALON",
+    "year": "2002",
+    "location": "TRUCKS 2 3",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "AVALON",
+    "year": "2003",
+    "location": "CARS FRONT 23 8",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "1998",
+    "location": "CARS FRONT 67 10",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "1999",
+    "location": "CARS FRONT 42 11",
+    "available": "12/22/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2000",
+    "location": "CARS FRONT 72 11",
+    "available": "1/27/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2001",
+    "location": "TRUCKS 2 1",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2003",
+    "location": "CARS FRONT 63 27",
+    "available": "1/9/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2004",
+    "location": "CARS FRONT 68 26",
+    "available": "1/19/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2005",
+    "location": "CARS FRONT 63 19",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2006",
+    "location": "TRUCKS 1 29",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2007",
+    "location": "CARS FRONT 70 27",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2008",
+    "location": "TRUCKS 1 9",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2009",
+    "location": "CARS FRONT 69 11",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2010",
+    "location": "CARS FRONT 54 4",
+    "available": "1/1/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2011",
+    "location": "CARS FRONT 69 2",
+    "available": "1/21/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "CAMRY",
+    "year": "2017",
+    "location": "CARS FRONT 48 6",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "1998",
+    "location": "CARS FRONT 28 9",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2002",
+    "location": "CARS FRONT 57 6",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2005",
+    "location": "CARS FRONT 65 27",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2006",
+    "location": "CARS FRONT 60 5",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2007",
+    "location": "CARS FRONT 25 12",
+    "available": "11/25/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2008",
+    "location": "CARS FRONT 33 7",
+    "available": "12/10/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2010",
+    "location": "CARS FRONT 28 8",
+    "available": "12/2/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "COROLLA",
+    "year": "2011",
+    "location": "TRUCKS 1 27",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "HIGHLANDER",
+    "year": "2003",
+    "location": "TRUCKS 1 19",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "HIGHLANDER",
+    "year": "2005",
+    "location": "CARS FRONT 74 15",
+    "available": "1/29/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "LAND CRUISER",
+    "year": "2000",
+    "location": "CARS FRONT 50 1",
+    "available": "12/30/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "MATRIX",
+    "year": "2003",
+    "location": "TRUCKS 1 21",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "MATRIX",
+    "year": "2009",
+    "location": "CARS FRONT 30 10",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "MATRIX",
+    "year": "2010",
+    "location": "CARS FRONT 29 5",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "PRIUS",
+    "year": "2005",
+    "location": "CARS FRONT 22 9",
+    "available": "11/17/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "PRIUS",
+    "year": "2006",
+    "location": "CARS FRONT 44 2",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "PRIUS",
+    "year": "2008",
+    "location": "CARS FRONT 65 9",
+    "available": "1/13/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "PRIUS V",
+    "year": "2012",
+    "location": "CARS FRONT 71 19",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "RAV4",
+    "year": "1998",
+    "location": "CARS FRONT 21 6",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "RAV4",
+    "year": "2008",
+    "location": "CARS FRONT 64 6",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "RAV4",
+    "year": "2009",
+    "location": "TRUCKS 2 8",
+    "available": "2/4/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SEQUOIA",
+    "year": "2004",
+    "location": "CARS FRONT 68 1",
+    "available": "1/20/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SIENNA",
+    "year": "2000",
+    "location": "CARS FRONT 19 8",
+    "available": "11/11/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SIENNA",
+    "year": "2002",
+    "location": "CARS FRONT 66 23",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SIENNA",
+    "year": "2003",
+    "location": "TRUCKS 1 18",
+    "available": "2/3/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SIENNA",
+    "year": "2005",
+    "location": "CARS FRONT 62 11",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "SIENNA",
+    "year": "2006",
+    "location": "CARS FRONT 31 23",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "TOYOTA",
+    "model": "YARIS",
+    "year": "2009",
+    "location": "CARS FRONT 26 16",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "TRIUMPH",
+    "model": "SPITFIRE",
+    "year": "1973",
+    "location": "CARS FRONT 31 7",
+    "available": "12/8/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "year": "2002",
+    "location": "CARS FRONT 31 3",
+    "available": "12/5/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "BEETLE",
+    "year": "2005",
+    "location": "CARS FRONT 30 1",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "CABRIO",
+    "year": "2001",
+    "location": "CARS FRONT 49 3",
+    "available": "12/29/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "year": "2009",
+    "location": "CARS FRONT 32 2",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "year": "2010",
+    "location": "CARS FRONT 63 15",
+    "available": "1/8/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "CC",
+    "year": "2013",
+    "location": "CARS FRONT 56 9",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "EUROVAN",
+    "year": "1993",
+    "location": "CARS FRONT 36 2",
+    "available": "12/16/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "GTI",
+    "year": "2008",
+    "location": "CARS FRONT 42 8",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2002",
+    "location": "CARS FRONT 39 10",
+    "available": "12/18/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2003",
+    "location": "CARS FRONT 32 8",
+    "available": "12/9/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2009",
+    "location": "CARS FRONT 71 8",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2010",
+    "location": "CARS FRONT 67 19",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2012",
+    "location": "CARS FRONT 66 18",
+    "available": "1/14/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "JETTA",
+    "year": "2014",
+    "location": "CARS FRONT 62 12",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "year": "2001",
+    "location": "CARS FRONT 23 12",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "year": "2004",
+    "location": "CARS FRONT 20 19",
+    "available": "11/13/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "year": "2006",
+    "location": "CARS FRONT 33 12",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "year": "2007",
+    "location": "CARS FRONT 30 2",
+    "available": "12/4/2025"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "PASSAT",
+    "year": "2008",
+    "location": "CARS FRONT 62 22",
+    "available": "1/7/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "year": "2010",
+    "location": "CARS FRONT 61 12",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "year": "2012",
+    "location": "CARS FRONT 61 10",
+    "available": "1/6/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "TOUAREG",
+    "year": "2006",
+    "location": "CARS FRONT 59 13",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "VOLKSWAGEN",
+    "model": "VANAGON",
+    "year": "1990",
+    "location": "CARS FRONT 59 8",
+    "available": "1/5/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "240",
+    "year": "1984",
+    "location": "CARS FRONT 58 12",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S40",
+    "year": "2008",
+    "location": "CARS FRONT 23 5",
+    "available": "11/21/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S40",
+    "year": "2010",
+    "location": "CARS FRONT 41 7",
+    "available": "12/19/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2002",
+    "location": "CARS FRONT 45 10",
+    "available": "12/23/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2003",
+    "location": "CARS FRONT 33 19",
+    "available": "12/11/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2004",
+    "location": "CARS FRONT 26 4",
+    "available": "11/26/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2007",
+    "location": "CARS FRONT 52 2",
+    "available": "12/31/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2008",
+    "location": "CARS FRONT 21 17",
+    "available": "11/14/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "S60",
+    "year": "2012",
+    "location": "CARS FRONT 24 20",
+    "available": "11/24/2025"
+  },
+  {
+    "make": "VOLVO",
+    "model": "V50",
+    "year": "2005",
+    "location": "CARS FRONT 57 9",
+    "available": "1/2/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "V70",
+    "year": "2006",
+    "location": "CARS FRONT 67 15",
+    "available": "1/16/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "V90",
+    "year": "1997",
+    "location": "CARS FRONT 71 7",
+    "available": "1/26/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "XC60",
+    "year": "2013",
+    "location": "CARS FRONT 65 24",
+    "available": "1/12/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "XC90",
+    "year": "2007",
+    "location": "CARS FRONT 66 2",
+    "available": "1/15/2026"
+  },
+  {
+    "make": "VOLVO",
+    "model": "XC90",
+    "year": "2008",
+    "location": "CARS FRONT 63 12",
+    "available": "1/8/2026"
+  }
+]
