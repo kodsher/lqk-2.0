@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LQK Car Inventory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0d1117;
+            padding: 20px;
+            min-height: 100vh;
+            color: #c9d1d9;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #161b22;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            border: 1px solid #30363d;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #238636 0%, #1f6feb 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #161b22;
+        }
+
+        thead {
+            background: #21262d;
+            position: sticky;
+            top: 0;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #c9d1d9;
+            cursor: pointer;
+            user-select: none;
+            border-bottom: 2px solid #30363d;
+            transition: background-color 0.2s;
+        }
+
+        th:hover {
+            background-color: #30363d;
+        }
+
+        th .sort-indicator {
+            margin-left: 5px;
+            opacity: 0.3;
+        }
+
+        th.sorted-asc .sort-indicator,
+        th.sorted-desc .sort-indicator {
+            opacity: 1;
+        }
+
+        th.sorted-asc .sort-indicator::after {
+            content: ' ▲';
+        }
+
+        th.sorted-desc .sort-indicator::after {
+            content: ' ▼';
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #30363d;
+            color: #c9d1d9;
+        }
+
+        tbody tr {
+            transition: background-color 0.2s;
+        }
+
+        tbody tr:hover {
+            background-color: #21262d;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #21262d;
+            border-bottom: 1px solid #30363d;
+        }
+
+        /* Tags Filter Section */
+        .tags-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .tags-header {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .part-tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+        .part-tag:hover {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+            transform: translateY(-1px);
+        }
+        .part-tag.active {
+            background: var(--accent-primary);
+            color: white;
+            border-color: var(--accent-primary);
+        }
+        .part-tag-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 11px;
+            margin-left: 6px;
+        }
+        .part-tag:hover .part-tag-count,
+        .part-tag.active .part-tag-count {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .part-cost {
+            cursor: text;
+            border-bottom: 1px dotted transparent;
+            transition: border-color 0.2s ease;
+        }
+        .part-cost:hover {
+            border-bottom-color: currentColor;
+        }
+        .part-cost-input {
+            background: var(--bg-primary);
+            border: 1px solid var(--accent-primary);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 13px;
+            color: var(--text-primary);
+            width: 80px;
+            outline: none;
+        }
+        .part-cost-input:focus {
+            box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.2);
+        }
+        .clear-tags-btn {
+            padding: 6px 12px;
+            background: #da3633;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .clear-tags-btn:hover {
+            background: #f85149;
+            transform: translateY(-1px);
+        }
+        .editable-field {
+            cursor: pointer;
+            border-bottom: 1px dotted transparent;
+            transition: border-color 0.2s ease;
+            padding: 0 2px;
+        }
+        .editable-field:hover {
+            border-bottom-color: rgba(255, 255, 255, 0.5);
+        }
+        .inline-edit-input {
+            background: var(--bg-primary);
+            border: 1px solid var(--accent-primary);
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 12px;
+            color: var(--text-primary);
+            width: 70px;
+            outline: none;
+            font-family: inherit;
+        }
+        .inline-edit-input:focus {
+            box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.2);
+        }
+
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-box .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+
+        .stat-box .label {
+            font-size: 0.9em;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .search-container {
+            padding: 20px;
+            background: #21262d;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 12px;
+            font-size: 1em;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            outline: none;
+            transition: border-color 0.2s;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .search-container input:focus {
+            border-color: #58a6ff;
+        }
+
+        .search-container input::placeholder {
+            color: #8b949e;
+        }
+
+        .empty-location {
+            color: #6e7681;
+            font-style: italic;
+        }
+    
+        /* Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(4px);
+        }
+        .modal-overlay.show {
+            display: flex;
+        }
+        .modal-content {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            min-width: 400px;
+            max-width: 500px;
+            animation: modalSlideIn 0.3s ease;
+        }
+        @keyframes modalSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .modal-header {
+            font-size: 20px;
+            font-weight: 600;
+            color: #c9d1d9;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .modal-message {
+            color: #c9d1d9;
+            font-size: 14px;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .modal-input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-size: 14px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        .modal-input:focus {
+            outline: none;
+            border-color: #58a6ff;
+            box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+        }
+        .modal-input-wrapper {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        .modal-label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 13px;
+            color: #c9d1d9;
+            font-weight: 500;
+        }
+        .modal-checkbox-label {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #c9d1d9;
+            font-weight: 500;
+            cursor: pointer;
+            user-select: none;
+        }
+        .modal-checkbox-label input[type="checkbox"] {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+        .suggestions-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            margin-top: 4px;
+            display: none;
+        }
+        .suggestions-dropdown.show {
+            display: block;
+        }
+        .suggestion-item {
+            padding: 10px 12px;
+            cursor: pointer;
+            color: #c9d1d9;
+            font-size: 14px;
+            border-bottom: 1px solid #21262d;
+        }
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+        .suggestion-item:hover {
+            background-color: #21262d;
+        }
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+        .modal-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .modal-btn-cancel {
+            background-color: #21262d;
+            color: #c9d1d9;
+            border: 1px solid #30363d;
+        }
+        .modal-btn-cancel:hover {
+            background-color: #30363d;
+        }
+        .modal-btn-add {
+            background: linear-gradient(135deg, #238636 0%, #1f6feb 100%);
+            color: white;
+        }
+        .modal-btn-add:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+        
+        /* Collapsible Parts Row */
+        .parts-row {
+            display: none;
+            background-color: #0d1117;
+        }
+        .parts-row.show {
+            display: table-row;
+        }
+        .parts-cell-container {
+            padding: 15px 20px !important;
+        }
+        .parts-header {
+            color: #8b949e;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .parts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .part-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 10px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            transition: all 0.2s;
+            gap: 10px;
+        }
+        .part-card:hover {
+            border-color: #58a6ff;
+            box-shadow: 0 2px 8px rgba(88, 166, 255, 0.2);
+        }
+        .part-card-main {
+            flex: 1;
+            min-width: 0;
+        }
+        .part-card-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 6px;
+            font-size: 11px;
+            color: #8b949e;
+        }
+        .part-detail {
+            white-space: nowrap;
+        }
+        .part-card-actions {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+        .part-card-actions-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+        .part-edit-btn {
+            background-color: var(--accent-primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .part-edit-btn:hover {
+            background-color: var(--accent-primary);
+            filter: brightness(1.2);
+        }
+        .part-edit-btn:active {
+            transform: scale(0.95);
+        }
+        .part-copy-btn {
+            background-color: var(--accent-primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 3px 8px;
+            cursor: pointer;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .part-copy-btn:hover {
+            background-color: var(--accent-primary);
+            filter: brightness(1.2);
+        }
+        .part-copy-btn:active {
+            transform: scale(0.95);
+        }
+        .part-paste-btn {
+            background-color: var(--accent-primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 3px 8px;
+            cursor: pointer;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .part-paste-btn:hover {
+            background-color: var(--accent-primary);
+            filter: brightness(1.2);
+        }
+        .part-paste-btn:active {
+            transform: scale(0.95);
+        }
+        .greenlight-checkbox {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 26px;
+            height: 26px;
+            border: 2px solid #484f58;
+            border-radius: 4px;
+            background-color: #0d1117;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.2s;
+        }
+        .greenlight-checkbox:checked {
+            background-color: var(--accent-primary);
+            border-color: var(--accent-primary);
+        }
+        .greenlight-checkbox:checked::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .greenlight-checkbox:hover {
+            border-color: var(--accent-primary);
+        }
+        .greenlight-checkbox:checked:hover {
+            border-color: var(--accent-primary);
+        }
+        .part-card-text {
+            color: #c9d1d9;
+            font-size: 13px;
+            word-break: break-word;
+            font-weight: 500;
+        }
+        .part-delete-btn {
+            background-color: #da3633;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 3px 8px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+            font-weight: bold;
+        }
+        .part-delete-btn:hover {
+            background-color: #f85149;
+        }
+        .no-parts-message {
+            color: #6e7681;
+            font-style: italic;
+            font-size: 13px;
+            text-align: center;
+            padding: 20px;
+        }
+        .car-name-with-arrow {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .parts-arrow {
+            cursor: pointer;
+            transition: transform 0.2s;
+            color: #8b949e;
+            font-size: 12px;
+            user-select: none;
+        }
+        .parts-arrow:hover {
+            color: #58a6ff;
+        }
+        .parts-arrow.expanded {
+            transform: rotate(90deg);
+        }
+        .parts-cell {
+            text-align: center;
+            padding: 12px !important;
+        }
+        .plus-btn {
+            background: linear-gradient(135deg, #238636 0%, #1f6feb 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            width: 32px;
+            height: 32px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            box-shadow: 0 2px 8px rgba(35, 134, 54, 0.3);
+        }
+        .plus-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(35, 134, 54, 0.5);
+        }
+        .clear-btn {
+            background: linear-gradient(135deg, #da3633 0%, #f85149 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            box-shadow: 0 2px 8px rgba(218, 54, 51, 0.3);
+            margin-left: 5px;
+        }
+        .clear-btn:hover {
+            transform: scale(1.1) rotate(90deg);
+            box-shadow: 0 4px 12px rgba(218, 54, 51, 0.5);
+        }
+        .plus-btn.dark {
+            background: #21262d;
+            color: #8b949e;
+            box-shadow: none;
+            border: 1px solid #30363d;
+        }
+        .plus-btn.dark:hover {
+            background: #30363d;
+        }
+        tbody tr.selected {
+            background: linear-gradient(135deg, rgba(35, 134, 54, 0.2) 0%, rgba(31, 111, 235, 0.2) 100%) !important;
+            border-left: 3px solid #1f6feb;
+        }
+        tbody tr.selected:hover {
+            background: linear-gradient(135deg, rgba(35, 134, 54, 0.3) 0%, rgba(31, 111, 235, 0.3) 100%) !important;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 LQK Car Inventory</h1>
+            <p>Interactive sortable table with <span id="totalCars">0</span> vehicles (UPDATED Feb 01, 2026 05:24)</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="number" id="statCars">0</div>
+                <div class="label">Total Cars</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="statWithLocation">0</div>
+                <div class="label">With Location</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="statCarsSection">0</div>
+                <div class="label">Cars Section (C)</div>
+            </div>
+            <div class="stat-box">
+                <div class="number" id="statTrucksSection">0</div>
+                <div class="label">Trucks Section (T)</div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="🔍 Search by car name, year, or location...">
+        </div>
+
+                <div class="tags-section">
+            <div class="tags-header">
+                <span>🏷️ Filter by Part</span>
+                <button class="clear-tags-btn" id="clearTagsBtn" style="display: none; float: right;" onclick="event.stopPropagation()">Clear Filter</button>
+            </div>
+            <div class="tags-container" id="tagsContainer">
+                <span style="color: var(--text-secondary); font-size: 13px;">Loading parts...</span>
+            </div>
+
+        <div class="tags-section">
+            <div class="tags-header">
+                <span>✓ Filter by Confirmed</span>
+                <button class="clear-tags-btn" id="clearConfirmedBtn" style="display: none; float: right;" onclick="event.stopPropagation()">Clear Filter</button>
+            </div>
+            <div class="tags-container" id="confirmedContainer">
+                <div class="part-tag" data-confirmed="all" onclick="event.stopPropagation(); filterByConfirmed('all')">
+                    <span class="part-name">All</span>
+                    <span class="part-tag-count" id="confirmedAllCount">0</span>
+                </div>
+                <div class="part-tag" data-confirmed="yes" onclick="event.stopPropagation(); filterByConfirmed('yes')">
+                    <span class="part-name">Confirmed</span>
+                    <span class="part-tag-count" id="confirmedYesCount">0</span>
+                </div>
+                <div class="part-tag" data-confirmed="no" onclick="event.stopPropagation(); filterByConfirmed('no')">
+                    <span class="part-name">Not Confirmed</span>
+                    <span class="part-tag-count" id="confirmedNoCount">0</span>
+                </div>
+            </div>
+        </div>
+
+<div class="table-container">
+            <table id="carTable">
+                <thead>
+                    <tr>
+                        <th data-sort="car">Car <span class="sort-indicator"></span></th>
+                        <th data-sort="year">Year <span class="sort-indicator"></span></th>
+                        <th data-sort="date">Date <span class="sort-indicator"></span></th>
+                        <th data-sort="location">Location <span class="sort-indicator"></span></th>
+                        <th>Parts</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Add Part Modal -->
+    <div class="modal-overlay" id="addPartModal">
+        <div class="modal-content">
+            <div class="modal-header">Add Part</div>
+            <div class="modal-input-wrapper">
+                <input type="text" class="modal-input" id="modalPartInput" placeholder="Enter part name..." autocomplete="off">
+                <div class="suggestions-dropdown" id="suggestionsDropdown"></div>
+            </div>
+            <div class="modal-input-wrapper">
+                <input type="text" class="modal-input" id="modalStrInput" placeholder="STR (optional)" autocomplete="off">
+            </div>
+            <div class="modal-input-wrapper">
+                <input type="number" class="modal-input" id="modalPriceInput" placeholder="Price (optional)" step="0.01" min="0">
+            </div>
+            <div class="modal-input-wrapper">
+                <input type="number" class="modal-input" id="modalCostInput" placeholder="Cost (optional)" step="0.01" min="0">
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-cancel" onclick="closeModal()">Cancel</button>
+                <button class="modal-btn modal-btn-add" onclick="confirmAddPart()">Add Part</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clear Parts Confirmation Modal -->
+    <div class="modal-overlay" id="clearPartsModal">
+        <div class="modal-content">
+            <div class="modal-header">Clear All Parts</div>
+            <div class="modal-message" id="clearPartsMessage">Are you sure you want to clear all parts?</div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-cancel" onclick="closeClearPartsModal()">Cancel</button>
+                <button class="modal-btn modal-btn-add" onclick="confirmClearParts()" style="background: linear-gradient(135deg, #da3633 0%, #f85149 100%);">Clear Parts</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Part Modal -->
+    <div class="modal-overlay" id="editPartModal">
+        <div class="modal-content">
+            <div class="modal-header">Edit Part Details</div>
+            <div class="modal-input-wrapper">
+                <label class="modal-label">Part Name</label>
+                <input type="text" class="modal-input" id="editPartName" placeholder="Part name">
+            </div>
+            <div class="modal-input-wrapper">
+                <label class="modal-label">STR (Sell Through Rate)</label>
+                <input type="text" class="modal-input" id="editPartStr" placeholder="Optional">
+            </div>
+            <div class="modal-input-wrapper">
+                <label class="modal-label">Price ($)</label>
+                <input type="number" class="modal-input" id="editPartPrice" placeholder="Optional" step="0.01" min="0">
+            </div>
+            <div class="modal-input-wrapper">
+                <label class="modal-label">Cost ($)</label>
+                <input type="number" class="modal-input" id="editPartCost" placeholder="Optional" step="0.01" min="0">
+            </div>
+            <div class="modal-input-wrapper">
+                <label class="modal-label">90 Day Vol</label>
+                <input type="number" class="modal-input" id="editPartVol90" placeholder="Optional" min="0">
+            </div>
+            <div class="modal-input-wrapper" style="margin-top: 15px;">
+                <label class="modal-checkbox-label">
+                    <input type="checkbox" id="editPartApplyGlobal" style="margin-right: 8px;">
+                    Apply to all entries with this part
+                </label>
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn modal-btn-cancel" onclick="closeEditPartModal()">Cancel</button>
+                <button class="modal-btn modal-btn-add" onclick="savePartEdit()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let carData = [];
+        let currentSort = { column: null, direction: 'asc' };
+
+        let selectedCarIds = new Set();
+        let lastSelectedCarId = null;
+
+        // Load data from LQK.json
+        async function loadData() {
+            try {
+                const response = await fetch('LQK.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const text = await response.text();
+                console.log('Raw JSON length:', text.length);
+
+                const consolidated = JSON.parse(text);
+                console.log('Parsed consolidated entries:', consolidated.length);
+
+                // Use consolidated format directly - don't expand
+                carData = consolidated.map(entry => ({
+                    car: entry.car,
+                    year: entry.year,
+                    date: entry.dates,      // Keep the "(1) date, (2) date" format
+                    location: entry.locations,  // Keep the "(1) loc1, (2) loc2" format
+                    count: entry.count       // Store count for reference
+                }));
+
+                console.log(`Loaded ${carData.length} consolidated entries from LQK.json`);
+                initializeApp();
+
+            } catch (error) {
+                console.error('Error loading LQK.json:', error);
+                console.error('Error details:', error.message, error.stack);
+                document.getElementById('totalCars').textContent = 'Error: ' + error.message;
+                alert('Failed to load LQK.json: ' + error.message + '\n\nPlease run python3 run.py first and make sure you access the page via http://localhost:8002/');
+            }
+        }
+
+        function initializeApp() {
+
+        // Sort data function - reusable across the application
+        function sortData(data) {
+            if (!currentSort.column) return data;
+
+            return [...data].sort((a, b) => {
+                let aVal = a[currentSort.column] || '';
+                let bVal = b[currentSort.column] || '';
+
+                // Handle numeric sorting for year
+                if (currentSort.column === 'year') {
+                    aVal = parseInt(aVal) || 0;
+                    bVal = parseInt(bVal) || 0;
+                    return currentSort.direction === 'asc' ? aVal - bVal : bVal - aVal;
+                }
+
+                // Handle date sorting
+                if (currentSort.column === 'date') {
+                    const parseDate = (str) => {
+                        // Handle consolidated format: "(1) 1/15/2026, (2) 1/20/2026"
+                        // Extract the first date for sorting
+                        const dateMatch = str.match(/\(\d+\)\s+([\d\/]+)(?:,|$)/);
+                        if (dateMatch) {
+                            const parts = dateMatch[1].split('/');
+                            if (parts.length === 3) {
+                                const month = parseInt(parts[0], 10);
+                                const day = parseInt(parts[1], 10);
+                                const year = parseInt(parts[2], 10);
+                                return new Date(year, month - 1, day);
+                            }
+                        }
+                        return new Date(0);
+                    };
+                    const dateA = parseDate(aVal);
+                    const dateB = parseDate(bVal);
+                    return currentSort.direction === 'asc' ? dateA - dateB : dateB - dateA;
+                }
+
+                // Handle location sorting
+                if (currentSort.column === 'location') {
+                    const parseLocation = (str) => {
+                        if (!str || !str.trim()) return { section: 'ZZZ', row: 9999, spot: 9999 };
+
+                        // Handle consolidated format: "(1) C 67 4, (2) T 9 19"
+                        // Extract the first location for sorting
+                        const locMatch = str.match(/\(\d+\)\s+([A-Z]+)\s+(\d+)\s+(\d+)(?:,|$)/);
+                        if (locMatch) {
+                            return {
+                                section: locMatch[1], // C or T
+                                row: parseInt(locMatch[2], 10) || 9999,
+                                spot: parseInt(locMatch[3], 10) || 9999
+                            };
+                        }
+
+                        // Fallback to old format parsing
+                        const parts = str.trim().split(/\s+/);
+                        if (parts.length >= 3) {
+                            return {
+                                section: parts[0], // C or T
+                                row: parseInt(parts[1], 10) || 9999,
+                                spot: parseInt(parts[2], 10) || 9999
+                            };
+                        }
+                        return { section: 'ZZZ', row: 9999, spot: 9999 };
+                    };
+
+                    const locA = parseLocation(aVal);
+                    const locB = parseLocation(bVal);
+
+                    // Sort by section, then row, then spot
+                    if (locA.section !== locB.section) {
+                        return currentSort.direction === 'asc'
+                            ? locA.section.localeCompare(locB.section)
+                            : locB.section.localeCompare(locA.section);
+                    }
+                    if (locA.row !== locB.row) {
+                        return currentSort.direction === 'asc'
+                            ? locA.row - locB.row
+                            : locB.row - locA.row;
+                    }
+                    return currentSort.direction === 'asc'
+                        ? locA.spot - locB.spot
+                        : locB.spot - locA.spot;
+                }
+
+                // String sorting
+                aVal = aVal.toString().toLowerCase();
+                bVal = bVal.toString().toLowerCase();
+
+                if (currentSort.direction === 'asc') {
+                    return aVal.localeCompare(bVal);
+                } else {
+                    return bVal.localeCompare(aVal);
+                }
+            });
+        }
+
+        // Initialize the app with loaded data
+        displayTable(carData);
+        updateStats(carData);
+        loadAllParts();
+        updateConfirmedCounts();
+        }
+
+        function displayTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            data.forEach((car, index) => {
+                const carId = `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_');
+                const parts = getCarParts(carId);
+                const hasParts = parts.length > 0;
+                const isSelected = selectedCarIds.has(carId);
+
+                // Main car row
+                const row = document.createElement('tr');
+                if (isSelected) {
+                    row.classList.add('selected');
+                }
+                row.innerHTML = `
+                    <td>
+                        <div class="car-name-with-arrow">
+                            ${hasParts ? `<span class="parts-arrow" id="arrow_${carId}" onclick="togglePartsRow('${carId}')">▶</span>` : ''}
+                            <strong>${escapeHtml(car.car)}</strong>
+                        </div>
+                    </td>
+                    <td>${car.year}</td>
+                    <td>${car.date}</td>
+                    <td>${car.location ? escapeHtml(car.location) : '<span class="empty-location">No location</span>'}</td>
+                    <td class="parts-cell">
+                        <button class="plus-btn" onclick="openModal('${carId}')">+</button>
+                        <button class="clear-btn" onclick="clearParts('${carId}')">↻</button>
+                    </td>
+                `;
+
+                // Add click handler for row selection
+                row.addEventListener('click', (e) => {
+                    if (e.target.tagName === 'BUTTON' || e.target.tagName === 'INPUT' || e.target.classList.contains('parts-arrow')) {
+                        return;
+                    }
+
+                    // Copy to clipboard: year + car name
+                    const textToCopy = `${car.year} ${car.car}`;
+                    navigator.clipboard.writeText(textToCopy).then(() => {
+                        // Show visual feedback
+                        const originalBg = row.style.backgroundColor;
+                        row.style.backgroundColor = 'rgba(35, 134, 54, 0.3)';
+                        setTimeout(() => {
+                            row.style.backgroundColor = originalBg;
+                        }, 200);
+                    }).catch(err => {
+                        console.error('Failed to copy:', err);
+                    });
+
+                    // Check for modifier keys
+                    const isMultiSelect = e.metaKey || e.ctrlKey;
+                    const isShiftSelect = e.shiftKey;
+
+                    if (isShiftSelect && lastSelectedCarId) {
+                        // Shift+click - select all rows between last selected and current
+                        const carIds = data.map(car => `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_')
+                        );
+
+                        const lastIndex = carIds.indexOf(lastSelectedCarId);
+                        const currentIndex = carIds.indexOf(carId);
+
+                        if (lastIndex !== -1 && currentIndex !== -1) {
+                            const start = Math.min(lastIndex, currentIndex);
+                            const end = Math.max(lastIndex, currentIndex);
+
+                            // Select all rows in range
+                            for (let i = start; i <= end; i++) {
+                                selectedCarIds.add(carIds[i]);
+                            }
+                        }
+                    } else if (isMultiSelect) {
+                        // Command/Ctrl+click - toggle selection in Set
+                        if (selectedCarIds.has(carId)) {
+                            selectedCarIds.delete(carId);
+                        } else {
+                            selectedCarIds.add(carId);
+                        }
+                        // Update last selected for potential future shift-click
+                        lastSelectedCarId = carId;
+                    } else {
+                        // Single selection mode - clear all and select only this one
+                        selectedCarIds.clear();
+                        selectedCarIds.add(carId);
+                        // Update last selected for potential future shift-click
+                        lastSelectedCarId = carId;
+                    }
+
+                    displayTable(data);
+                });
+
+                tbody.appendChild(row);
+
+                // Parts row (collapsible) - only if parts exist
+                if (hasParts) {
+                    const greenlightedParts = getGreenlightedParts(carId);
+                    const partsRow = document.createElement('tr');
+                    partsRow.id = `partsrow_${carId}`;
+                    partsRow.className = 'parts-row';
+                    partsRow.innerHTML = `
+                        <td colspan="5" class="parts-cell-container">
+                            <div class="parts-header">Parts (${parts.length})</div>
+                            <div class="parts-grid">
+                                ${parts.map((part, partIndex) => {
+                                    const partName = typeof part === 'string' ? part : part.name;
+                                    const partStr = part.str || '-';
+                                    const partPrice = part.price ? '$' + part.price : '-';
+                                    const partVol90 = part.vol90 || '-';
+                                    // Calculate profit
+                                    let profitDisplay = '-';
+                                    if (part.price && part.cost && !isNaN(parseFloat(part.price)) && !isNaN(parseFloat(part.cost))) {
+                                        const profit = parseFloat(part.price) - parseFloat(part.cost);
+                                        profitDisplay = '$' + profit.toFixed(2);
+                                    }
+                                    // Convert STR to percentage if it's a number
+                                    const strDisplay = (part.str && !isNaN(parseFloat(part.str))) ?
+                                        parseFloat(part.str).toFixed(1) + '%' : partStr;
+                                    const isGreenlighted = greenlightedParts.includes(partName);
+                                    return `
+                                    <div class="part-card">
+                                        <div class="part-card-main">
+                                            <span class="part-card-text">${escapeHtml(partName)}</span>
+                                            <div class="part-card-details">
+                                                <span class="part-detail">STR: <span class="editable-field" data-field="str" data-car-id="${carId}" data-part-index="${partIndex}" data-value="${escapeHtml(String(part.str || ''))}" ondblclick="event.stopPropagation(); editPartField(this, 'str')">${escapeHtml(String(strDisplay))}</span></span>
+                                                <span class="part-detail">Price: <span class="editable-field" data-field="price" data-car-id="${carId}" data-part-index="${partIndex}" data-value="${escapeHtml(String(part.price || ''))}" ondblclick="event.stopPropagation(); editPartField(this, 'price')">${escapeHtml(String(partPrice))}</span></span>
+                                                <span class="part-detail">Profit: ${escapeHtml(String(profitDisplay))}</span>
+                                                <span class="part-detail">90 Vol: <span class="editable-field" data-field="vol90" data-car-id="${carId}" data-part-index="${partIndex}" data-value="${escapeHtml(String(part.vol90 || ''))}" ondblclick="event.stopPropagation(); editPartField(this, 'vol90')">${escapeHtml(String(partVol90))}</span></span>
+                                            </div>
+                                        </div>
+                                        <div class="part-card-actions-container">
+                                            <input type="checkbox" class="greenlight-checkbox" ${isGreenlighted ? 'checked' : ''} onchange="event.stopPropagation(); toggleGreenlight('${carId}', '${escapeHtml(partName).replace(/'/g, "\\'")}')">
+                                            <div class="part-card-actions">
+                                                <button class="part-copy-btn" onclick="event.stopPropagation(); copyPart(${JSON.stringify(carId)}, ${partIndex})" title="Copy part">copy</button>
+                                                <button class="part-paste-btn" onclick="event.stopPropagation(); pastePart(${JSON.stringify(carId)}, ${partIndex})" title="Paste part">paste</button>
+                                                <button class="part-delete-btn" onclick="event.stopPropagation(); deletePart(${JSON.stringify(carId)}, ${partIndex})" title="Delete part">−</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `}).join('')}
+                            </div>
+                        </td>
+                    `;
+                    tbody.appendChild(partsRow);
+                }
+            });
+
+            document.getElementById('totalCars').textContent = data.length;
+        }
+
+        function getCarParts(carId) {
+            const partsData = localStorage.getItem('lqkCarParts');
+            if (!partsData) return [];
+            try {
+                const allParts = JSON.parse(partsData);
+                const parts = allParts[carId] || [];
+
+                // Migrate old string-based parts to new object structure
+                const migratedParts = parts.map(part => {
+                    if (typeof part === 'string') {
+                        return {
+                            name: part,
+                            str: '',
+                            price: '',
+                            cost: '',
+                            vol90: ''
+                        };
+                    }
+                    // Ensure vol90 field exists for object parts
+                    if (!part.hasOwnProperty('vol90')) {
+                        part.vol90 = '';
+                    }
+                    return part;
+                });
+
+                // Save migrated parts back to localStorage if any were migrated
+                const hasOldFormat = parts.some(part => typeof part === 'string');
+                const hasMissingVol90 = parts.some(part => typeof part === 'object' && !part.hasOwnProperty('vol90'));
+                if (hasOldFormat || hasMissingVol90) {
+                    allParts[carId] = migratedParts;
+                    localStorage.setItem('lqkCarParts', JSON.stringify(allParts));
+                }
+
+                return migratedParts;
+            } catch (e) {
+                console.error('Error parsing parts data:', e);
+                return [];
+            }
+        }
+
+        function saveCarParts(carId, parts) {
+            const partsData = localStorage.getItem('lqkCarParts');
+            let allParts = {};
+            if (partsData) {
+                try {
+                    allParts = JSON.parse(partsData);
+                } catch (e) {
+                    console.error('Error parsing parts data:', e);
+                }
+            }
+            allParts[carId] = parts;
+            localStorage.setItem('lqkCarParts', JSON.stringify(allParts));
+        }
+
+        function getGreenlightedParts(carId) {
+            const greenlightData = localStorage.getItem('lqkGreenlightedParts');
+            if (!greenlightData) return [];
+            try {
+                const allGreenlighted = JSON.parse(greenlightData);
+                return allGreenlighted[carId] || [];
+            } catch (e) {
+                console.error('Error parsing greenlight data:', e);
+                return [];
+            }
+        }
+
+        function saveGreenlightedPart(carId, partName) {
+            const greenlightData = localStorage.getItem('lqkGreenlightedParts');
+            let allGreenlighted = {};
+            if (greenlightData) {
+                try {
+                    allGreenlighted = JSON.parse(greenlightData);
+                } catch (e) {
+                    console.error('Error parsing greenlight data:', e);
+                }
+            }
+            if (!allGreenlighted[carId]) {
+                allGreenlighted[carId] = [];
+            }
+            if (!allGreenlighted[carId].includes(partName)) {
+                allGreenlighted[carId].push(partName);
+            }
+            localStorage.setItem('lqkGreenlightedParts', JSON.stringify(allGreenlighted));
+        }
+
+        let currentCarId = null;
+
+        function openModal(carId) {
+            currentCarId = carId;
+            const modal = document.getElementById('addPartModal');
+            const input = document.getElementById('modalPartInput');
+            const header = modal.querySelector('.modal-header');
+
+            input.value = '';
+
+            // Check if multiple cars are selected
+            if (selectedCarIds.size > 1) {
+                header.textContent = `Add Part to ${selectedCarIds.size} Cars`;
+            } else {
+                header.textContent = 'Add Part';
+            }
+
+            modal.classList.add('show');
+            input.focus();
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('addPartModal');
+            modal.classList.remove('show');
+            currentCarId = null;
+            // Hide suggestions dropdown
+            const dropdown = document.getElementById('suggestionsDropdown');
+            dropdown.classList.remove('show');
+        }
+
+        function getAllUniqueParts() {
+            const partsData = localStorage.getItem('lqkCarParts');
+            if (!partsData) return [];
+
+            try {
+                const allParts = JSON.parse(partsData);
+                const uniqueParts = new Set();
+
+                // Collect all parts from all cars
+                Object.values(allParts).forEach(carParts => {
+                    carParts.forEach(part => {
+                        // Handle both string and object formats
+                        const partName = typeof part === 'string' ? part : part.name;
+                        uniqueParts.add(partName);
+                    });
+                });
+
+                // Convert to array and sort alphabetically
+                return Array.from(uniqueParts).sort();
+            } catch (e) {
+                console.error('Error parsing parts data:', e);
+                return [];
+            }
+        }
+
+        function showSuggestions(inputValue) {
+            const dropdown = document.getElementById('suggestionsDropdown');
+
+            if (!inputValue || inputValue.trim() === '') {
+                dropdown.classList.remove('show');
+                return;
+            }
+
+            const allParts = getAllUniqueParts();
+            const filteredParts = allParts.filter(part =>
+                part.toLowerCase().includes(inputValue.toLowerCase())
+            );
+
+            if (filteredParts.length === 0) {
+                dropdown.classList.remove('show');
+                return;
+            }
+
+            // Clear and populate dropdown
+            dropdown.innerHTML = filteredParts.map(part =>
+                `<div class="suggestion-item" onclick="selectSuggestion('${escapeHtml(part).replace(/'/g, "\\'")}')">${escapeHtml(part)}</div>`
+            ).join('');
+
+            dropdown.classList.add('show');
+        }
+
+        function hideSuggestions() {
+            const dropdown = document.getElementById('suggestionsDropdown');
+            dropdown.classList.remove('show');
+        }
+
+        function selectSuggestion(partName) {
+            const input = document.getElementById('modalPartInput');
+            input.value = partName;
+            hideSuggestions();
+            input.focus();
+        }
+
+        function confirmAddPart() {
+            if (!currentCarId) return;
+
+            const input = document.getElementById('modalPartInput');
+            const partName = input.value.trim();
+
+            if (!partName) {
+                alert('Please enter a part name');
+                return;
+            }
+
+            // Create part object with empty optional fields
+            const newPart = {
+                name: partName,
+                str: '',
+                price: '',
+                cost: '',
+                vol90: ''
+            };
+
+            // If multiple cars are selected, add part to all of them
+            if (selectedCarIds.size > 1) {
+                selectedCarIds.forEach(carId => {
+                    const parts = getCarParts(carId);
+                    parts.push(newPart);
+                    saveCarParts(carId, parts);
+                });
+            } else {
+                // Single car - add part only to current car
+                const parts = getCarParts(currentCarId);
+                parts.push(newPart);
+                saveCarParts(currentCarId, parts);
+            }
+
+            closeModal();
+
+            // Save expanded state before refresh
+            const expandedRows = [];
+            document.querySelectorAll('.parts-row.show').forEach(row => {
+                expandedRows.push(row.id);
+            });
+
+            applyFilters();
+
+            // Restore expanded state after refresh
+            requestAnimationFrame(() => {
+                expandedRows.forEach(rowId => {
+                    const row = document.getElementById(rowId);
+                    const arrowId = rowId.replace('partsrow_', 'arrow_');
+                    const arrow = document.getElementById(arrowId);
+                    if (row) {
+                        row.classList.add('show');
+                    }
+                    if (arrow) {
+                        arrow.classList.add('expanded');
+                    }
+                });
+            });
+        }
+
+        let carsToClear = [];
+
+        function openClearPartsModal(carId) {
+            const targetCarIds = selectedCarIds.size > 1 ? Array.from(selectedCarIds) : [carId];
+            const count = targetCarIds.length;
+            carsToClear = targetCarIds;
+
+            const modal = document.getElementById('clearPartsModal');
+            const message = document.getElementById('clearPartsMessage');
+
+            message.textContent = count > 1
+                ? `Are you sure you want to clear ALL parts from ${count} cars?`
+                : 'Are you sure you want to clear ALL parts from this car?';
+
+            modal.classList.add('show');
+        }
+
+        function closeClearPartsModal() {
+            const modal = document.getElementById('clearPartsModal');
+            modal.classList.remove('show');
+            carsToClear = [];
+        }
+
+        function confirmClearParts() {
+            carsToClear.forEach(id => {
+                saveCarParts(id, []);
+            });
+
+            closeClearPartsModal();
+
+            // Save expanded state before refresh
+            const expandedRows = [];
+            document.querySelectorAll('.parts-row.show').forEach(row => {
+                expandedRows.push(row.id);
+            });
+
+            applyFilters();
+
+            // Restore expanded state after refresh
+            requestAnimationFrame(() => {
+                expandedRows.forEach(rowId => {
+                    const row = document.getElementById(rowId);
+                    const arrowId = rowId.replace('partsrow_', 'arrow_');
+                    const arrow = document.getElementById(arrowId);
+                    if (row) {
+                        row.classList.add('show');
+                    }
+                    if (arrow) {
+                        arrow.classList.add('expanded');
+                    }
+                });
+            });
+        }
+
+        function toggleGreenlight(carId, partName) {
+            const greenlightedParts = getGreenlightedParts(carId);
+            const index = greenlightedParts.indexOf(partName);
+
+            if (index === -1) {
+                // Add to greenlighted
+                greenlightedParts.push(partName);
+            } else {
+                // Remove from greenlighted
+                greenlightedParts.splice(index, 1);
+            }
+
+            // Save updated greenlighted parts
+            const greenlightData = localStorage.getItem('lqkGreenlightedParts');
+            let allGreenlighted = {};
+            if (greenlightData) {
+                try {
+                    allGreenlighted = JSON.parse(greenlightData);
+                } catch (e) {
+                    console.error('Error parsing greenlight data:', e);
+                }
+            }
+            allGreenlighted[carId] = greenlightedParts;
+            localStorage.setItem('lqkGreenlightedParts', JSON.stringify(allGreenlighted));
+
+            // Update confirmed counts
+            updateConfirmedCounts();
+
+            // Save expanded state before refresh
+            const expandedRows = [];
+            document.querySelectorAll('.parts-row.show').forEach(row => {
+                expandedRows.push(row.id);
+            });
+
+            applyFilters();
+
+            // Restore expanded state after refresh
+            requestAnimationFrame(() => {
+                expandedRows.forEach(rowId => {
+                    const row = document.getElementById(rowId);
+                    const arrowId = rowId.replace('partsrow_', 'arrow_');
+                    const arrow = document.getElementById(arrowId);
+                    if (row) {
+                        row.classList.add('show');
+                    }
+                    if (arrow) {
+                        arrow.classList.add('expanded');
+                    }
+                });
+            });
+        }
+
+        function togglePartsRow(carId) {
+            const partsRow = document.getElementById(`partsrow_${carId}`);
+            const arrow = document.getElementById(`arrow_${carId}`);
+            
+            if (partsRow.classList.contains('show')) {
+                partsRow.classList.remove('show');
+                arrow.classList.remove('expanded');
+            } else {
+                partsRow.classList.add('show');
+                arrow.classList.add('expanded');
+            }
+        }
+
+        function deletePart(carId, partIndex) {
+            if (!confirm('Are you sure you want to delete this part?')) {
+                return;
+            }
+
+            const parts = getCarParts(carId);
+            parts.splice(partIndex, 1);
+            saveCarParts(carId, parts);
+
+            // Save expanded state before refresh
+            const expandedRows = [];
+            document.querySelectorAll('.parts-row.show').forEach(row => {
+                expandedRows.push(row.id);
+            });
+
+            applyFilters();
+
+            // Restore expanded state after refresh
+            requestAnimationFrame(() => {
+                expandedRows.forEach(rowId => {
+                    const row = document.getElementById(rowId);
+                    const arrowId = rowId.replace('partsrow_', 'arrow_');
+                    const arrow = document.getElementById(arrowId);
+                    if (row) {
+                        row.classList.add('show');
+                    }
+                    if (arrow) {
+                        arrow.classList.add('expanded');
+                    }
+                });
+            });
+        }
+
+        // Edit part field inline
+        function editPartField(fieldElement, fieldType) {
+            const carId = fieldElement.getAttribute('data-car-id');
+            const partIndex = parseInt(fieldElement.getAttribute('data-part-index'));
+            const currentValue = fieldElement.getAttribute('data-value');
+
+            // Prevent editing if field is already being edited
+            if (fieldElement.querySelector('input')) {
+                return;
+            }
+
+            // Create input element based on field type
+            const input = document.createElement('input');
+            input.type = fieldType === 'price' || fieldType === 'vol90' ? 'number' : 'text';
+            input.value = currentValue;
+            input.className = 'inline-edit-input';
+
+            // Set input attributes based on field type
+            if (fieldType === 'price') {
+                input.step = '0.01';
+                input.min = '0';
+                input.placeholder = 'Price';
+            } else if (fieldType === 'vol90') {
+                input.min = '0';
+                input.placeholder = '90 Day Vol';
+            } else if (fieldType === 'str') {
+                input.placeholder = 'STR';
+            }
+
+            // Prevent click from propagating
+            input.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            // Replace the field content with input
+            fieldElement.innerHTML = '';
+            fieldElement.appendChild(input);
+            input.focus();
+            input.select();
+
+            // Handle saving on Enter or blur
+            const saveField = () => {
+                const newValue = input.value.trim();
+
+                // Get current parts
+                const parts = getCarParts(carId);
+                const part = parts[partIndex];
+
+                if (!part) {
+                    // Restore original value
+                    displayField();
+                    return;
+                }
+
+                // Validate and save the new value
+                let isValid = true;
+                let processedValue = newValue;
+
+                if (fieldType === 'price') {
+                    if (newValue === '' || isNaN(parseFloat(newValue))) {
+                        processedValue = '';
+                    } else {
+                        processedValue = parseFloat(newValue).toFixed(2);
+                    }
+                } else if (fieldType === 'vol90') {
+                    if (newValue === '' || isNaN(parseInt(newValue))) {
+                        processedValue = '';
+                    } else {
+                        processedValue = parseInt(newValue);
+                    }
+                }
+
+                // Update the part
+                if (typeof part === 'string') {
+                    // Migrate to object format
+                    parts[partIndex] = {
+                        name: part,
+                        str: '',
+                        price: '',
+                        cost: '',
+                        vol90: ''
+                    };
+                }
+
+                // Update the specific field
+                parts[partIndex][fieldType] = processedValue;
+
+                // Save to localStorage
+                saveCarParts(carId, parts);
+
+                // Save expanded state before refresh
+                const expandedRows = [];
+                document.querySelectorAll('.parts-row.show').forEach(row => {
+                    expandedRows.push(row.id);
+                });
+
+                // Refresh the table
+                applyFilters();
+
+                // Restore expanded state after refresh
+                requestAnimationFrame(() => {
+                    expandedRows.forEach(rowId => {
+                        const row = document.getElementById(rowId);
+                        const arrowId = rowId.replace('partsrow_', 'arrow_');
+                        const arrow = document.getElementById(arrowId);
+                        if (row) {
+                            row.classList.add('show');
+                        }
+                        if (arrow) {
+                            arrow.classList.add('expanded');
+                        }
+                    });
+                });
+            };
+
+            const displayField = () => {
+                // Restore display (will be refreshed by applyFilters)
+                fieldElement.innerHTML = currentValue;
+            };
+
+            // Save on Enter key
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    saveField();
+                }
+            });
+
+            // Save on blur (when clicking away)
+            input.addEventListener('blur', saveField);
+
+            // Cancel on Escape
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    displayField();
+                }
+            });
+        }
+
+        // Copy part data to clipboard
+        function copyPart(carId, partIndex) {
+            const parts = getCarParts(carId);
+            const part = parts[partIndex];
+
+            if (!part) return;
+
+            // Get part data (handle both string and object formats)
+            const partData = typeof part === 'string' ? { name: part } : {
+                name: part.name || '',
+                str: part.str || '',
+                price: part.price || '',
+                cost: part.cost || '',
+                vol90: part.vol90 || ''
+            };
+
+            // Convert to JSON string for clipboard
+            const clipboardData = JSON.stringify(partData);
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(clipboardData).then(() => {
+                // Show brief feedback
+                const copyBtns = document.querySelectorAll('.part-copy-btn');
+                const targetBtn = Array.from(copyBtns).find(btn => {
+                    const onclick = btn.getAttribute('onclick');
+                    return onclick && onclick.includes(`copyPart(${JSON.stringify(carId)}`);
+                });
+
+                if (targetBtn) {
+                    const originalText = targetBtn.textContent;
+                    targetBtn.textContent = 'copied!';
+                    setTimeout(() => {
+                        targetBtn.textContent = originalText;
+                    }, 1000);
+                }
+            }).catch(err => {
+                console.error('Failed to copy part:', err);
+                alert('Failed to copy part to clipboard');
+            });
+        }
+
+        // Paste part data from clipboard
+        function pastePart(carId, partIndex) {
+            // Request clipboard permission if needed and read
+            navigator.clipboard.readText().then(clipboardData => {
+                console.log('Clipboard data:', clipboardData); // Debug log
+                try {
+                    // Parse JSON data from clipboard
+                    const pastedData = JSON.parse(clipboardData);
+                    console.log('Parsed data:', pastedData); // Debug log
+
+                    // Validate that it has at least a name field
+                    if (!pastedData.name) {
+                        alert('Clipboard does not contain valid part data');
+                        return;
+                    }
+
+                    // Get current parts
+                    const parts = getCarParts(carId);
+                    console.log('Parts before paste:', parts); // Debug log
+
+                    // Update the part with pasted data
+                    parts[partIndex] = {
+                        name: pastedData.name,
+                        str: pastedData.str || '',
+                        price: pastedData.price || '',
+                        cost: pastedData.cost || '',
+                        vol90: pastedData.vol90 || ''
+                    };
+                    console.log('Parts after paste:', parts); // Debug log
+
+                    // Save the updated parts
+                    saveCarParts(carId, parts);
+
+                    // Save expanded state before refresh
+                    const expandedRows = [];
+                    document.querySelectorAll('.parts-row.show').forEach(row => {
+                        expandedRows.push(row.id);
+                    });
+
+                    // Refresh the table
+                    applyFilters();
+
+                    // Restore expanded state after refresh
+                    requestAnimationFrame(() => {
+                        expandedRows.forEach(rowId => {
+                            const row = document.getElementById(rowId);
+                            const arrowId = rowId.replace('partsrow_', 'arrow_');
+                            const arrow = document.getElementById(arrowId);
+                            if (row) {
+                                row.classList.add('show');
+                            }
+                            if (arrow) {
+                                arrow.classList.add('expanded');
+                            }
+                        });
+                    });
+
+                    // Show brief feedback - find all paste buttons and match by car
+                    const pasteBtns = document.querySelectorAll('.part-paste-btn');
+                    const targetBtn = Array.from(pasteBtns).find(btn => {
+                        const onclick = btn.getAttribute('onclick');
+                        return onclick && onclick.includes(`pastePart(${JSON.stringify(carId)}`);
+                    });
+
+                    if (targetBtn) {
+                        const originalText = targetBtn.textContent;
+                        targetBtn.textContent = 'pasted!';
+                        setTimeout(() => {
+                            targetBtn.textContent = originalText;
+                        }, 1000);
+                    }
+                } catch (e) {
+                    console.error('Failed to parse clipboard data:', e);
+                    alert('Clipboard does not contain valid part data. Error: ' + e.message);
+                }
+            }).catch(err => {
+                console.error('Failed to read clipboard:', err);
+                alert('Failed to read from clipboard. Make sure you have copied a part first and have granted clipboard permissions.\n\nError: ' + err.message);
+            });
+        }
+
+        // Track which part is being edited
+        let currentEditingCarId = null;
+        let currentEditingPartIndex = null;
+
+        function editPart(carId, partIndex) {
+            const parts = getCarParts(carId);
+            const part = parts[partIndex];
+
+            if (!part) return;
+
+            // Get part name (handle both string and object formats)
+            const partName = typeof part === 'string' ? part : part.name;
+            const partStr = typeof part === 'string' ? '' : (part.str || '');
+            const partPrice = typeof part === 'string' ? '' : (part.price || '');
+            const partCost = typeof part === 'string' ? '' : (part.cost || '');
+            const partVol90 = typeof part === 'string' ? '' : (part.vol90 || '');
+
+            currentEditingCarId = carId;
+            currentEditingPartIndex = partIndex;
+
+            // Populate modal with current values
+            document.getElementById('editPartName').value = partName;
+            document.getElementById('editPartStr').value = partStr;
+            document.getElementById('editPartPrice').value = partPrice;
+            document.getElementById('editPartCost').value = partCost;
+            document.getElementById('editPartVol90').value = partVol90;
+
+            // Show modal
+            document.getElementById('editPartModal').classList.add('show');
+        }
+
+        function closeEditPartModal() {
+            document.getElementById('editPartModal').classList.remove('show');
+            currentEditingCarId = null;
+            currentEditingPartIndex = null;
+        }
+
+        function savePartEdit() {
+            if (currentEditingCarId === null || currentEditingPartIndex === null) {
+                return;
+            }
+
+            const name = document.getElementById('editPartName').value.trim();
+            if (!name) {
+                alert('Part name is required');
+                return;
+            }
+
+            const applyGlobal = document.getElementById('editPartApplyGlobal').checked;
+            const newStr = document.getElementById('editPartStr').value.trim();
+            const newPrice = document.getElementById('editPartPrice').value.trim();
+            const newCost = document.getElementById('editPartCost').value.trim();
+            const newVol90 = document.getElementById('editPartVol90').value.trim();
+
+            if (applyGlobal) {
+                // Get the original part name before editing
+                const parts = getCarParts(currentEditingCarId);
+                const originalPart = parts[currentEditingPartIndex];
+                const originalPartName = typeof originalPart === 'string' ? originalPart : originalPart.name;
+
+                // Update all cars that have this part
+                carData.forEach(car => {
+                    const carParts = getCarParts(car.id);
+                    let hasChanges = false;
+
+                    carParts.forEach((part, index) => {
+                        const partName = typeof part === 'string' ? part : part.name;
+
+                        // Check if this part matches the original part name
+                        if (partName === originalPartName) {
+                            // Update the part with new values
+                            carParts[index] = {
+                                name: name,  // Use the new name (could be same or changed)
+                                str: newStr,
+                                price: newPrice,
+                                cost: newCost,
+                                vol90: newVol90
+                            };
+                            hasChanges = true;
+                        }
+                    });
+
+                    // Save if there were changes
+                    if (hasChanges) {
+                        saveCarParts(car.id, carParts);
+                    }
+                });
+            } else {
+                // Only update the current car's part
+                const parts = getCarParts(currentEditingCarId);
+                parts[currentEditingPartIndex] = {
+                    name: name,
+                    str: newStr,
+                    price: newPrice,
+                    cost: newCost,
+                    vol90: newVol90
+                };
+
+                saveCarParts(currentEditingCarId, parts);
+            }
+
+            // Close modal
+            closeEditPartModal();
+
+            // Save expanded state before refresh
+            const expandedRows = [];
+            document.querySelectorAll('.parts-row.show').forEach(row => {
+                expandedRows.push(row.id);
+            });
+
+            applyFilters();
+
+            // Restore expanded state after refresh
+            requestAnimationFrame(() => {
+                expandedRows.forEach(rowId => {
+                    const row = document.getElementById(rowId);
+                    const arrowId = rowId.replace('partsrow_', 'arrow_');
+                    const arrow = document.getElementById(arrowId);
+                    if (row) {
+                        row.classList.add('show');
+                    }
+                    if (arrow) {
+                        arrow.classList.add('expanded');
+                    }
+                });
+            });
+        }
+
+        function clearParts(carId) {
+            openClearPartsModal(carId);
+        }
+
+        function refreshTable() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const filteredData = carData.filter(car => {
+                return (
+                    car.car.toLowerCase().includes(searchTerm) ||
+                    car.year.toString().includes(searchTerm) ||
+                    car.date.toLowerCase().includes(searchTerm) ||
+                    (car.location && car.location.toLowerCase().includes(searchTerm))
+                );
+            });
+            displayTable(filteredData);
+            updateStats(filteredData);
+        }
+
+        // Modal event listeners
+        document.addEventListener('click', function(event) {
+            const addPartModal = document.getElementById('addPartModal');
+            const clearPartsModal = document.getElementById('clearPartsModal');
+            const editPartModal = document.getElementById('editPartModal');
+            if (event.target === addPartModal) {
+                closeModal();
+            }
+            if (event.target === clearPartsModal) {
+                closeClearPartsModal();
+            }
+            if (event.target === editPartModal) {
+                closeEditPartModal();
+            }
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                const modal = document.getElementById('addPartModal');
+                if (modal.classList.contains('show')) {
+                    confirmAddPart();
+                }
+            }
+            if (event.key === 'Escape') {
+                const addPartModal = document.getElementById('addPartModal');
+                const clearPartsModal = document.getElementById('clearPartsModal');
+                const editPartModal = document.getElementById('editPartModal');
+                if (addPartModal.classList.contains('show')) {
+                    closeModal();
+                }
+                if (clearPartsModal.classList.contains('show')) {
+                    closeClearPartsModal();
+                }
+                if (editPartModal.classList.contains('show')) {
+                    closeEditPartModal();
+                }
+            }
+        });
+
+        // Add input event listener for part suggestions
+        document.addEventListener('input', function(event) {
+            if (event.target.id === 'modalPartInput') {
+                showSuggestions(event.target.value);
+            }
+        });
+
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(event) {
+            const dropdown = document.getElementById('suggestionsDropdown');
+            const input = document.getElementById('modalPartInput');
+
+            if (dropdown.classList.contains('show') &&
+                !dropdown.contains(event.target) &&
+                event.target !== input) {
+                hideSuggestions();
+            }
+        });
+
+        function updateStats(data) {
+            const total = data.length;
+            const withLocation = data.filter(car => car.location).length;
+            const carsSection = data.filter(car => car.location && car.location.startsWith('C')).length;
+            const trucksSection = data.filter(car => car.location && car.location.startsWith('T')).length;
+
+            document.getElementById('statCars').textContent = total;
+            document.getElementById('statWithLocation').textContent = withLocation;
+            document.getElementById('statCarsSection').textContent = carsSection;
+            document.getElementById('statTrucksSection').textContent = trucksSection;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Sort functionality
+        document.querySelectorAll('th[data-sort]').forEach(th => {
+            th.addEventListener('click', () => {
+                const column = th.dataset.sort;
+
+                // Toggle sort direction
+                if (currentSort.column === column) {
+                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSort.column = column;
+                    currentSort.direction = 'asc';
+                }
+
+                // Update header classes
+                document.querySelectorAll('th').forEach(header => {
+                    header.classList.remove('sorted-asc', 'sorted-desc');
+                });
+                th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+
+                // Sort data with date parsing
+                const sortedData = [...carData].sort((a, b) => {
+                    let aVal = a[column] || '';
+                    let bVal = b[column] || '';
+
+                    // Handle numeric sorting for year
+                    if (column === 'year') {
+                        aVal = parseInt(aVal) || 0;
+                        bVal = parseInt(bVal) || 0;
+                        return currentSort.direction === 'asc' ? aVal - bVal : bVal - aVal;
+                    }
+
+                    // Handle date sorting
+                    if (column === 'date') {
+                        const parseDate = (str) => {
+                            // Handle consolidated format: "(1) 1/15/2026, (2) 1/20/2026"
+                            // Extract the first date for sorting
+                            const dateMatch = str.match(/\(\d+\)\s+([\d\/]+)(?:,|$)/);
+                            if (dateMatch) {
+                                const parts = dateMatch[1].split('/');
+                                if (parts.length === 3) {
+                                    const month = parseInt(parts[0], 10);
+                                    const day = parseInt(parts[1], 10);
+                                    const year = parseInt(parts[2], 10);
+                                    return new Date(year, month - 1, day);
+                                }
+                            }
+                            return new Date(0);
+                        };
+                        const dateA = parseDate(aVal);
+                        const dateB = parseDate(bVal);
+                        return currentSort.direction === 'asc' ? dateA - dateB : dateB - dateA;
+                    }
+
+                    // Handle location sorting
+                    if (column === 'location') {
+                        const parseLocation = (str) => {
+                            if (!str || !str.trim()) return { section: 'ZZZ', row: 9999, spot: 9999 };
+
+                            // Handle consolidated format: "(1) C 67 4, (2) T 9 19"
+                            // Extract the first location for sorting
+                            const locMatch = str.match(/\(\d+\)\s+([A-Z]+)\s+(\d+)\s+(\d+)(?:,|$)/);
+                            if (locMatch) {
+                                return {
+                                    section: locMatch[1], // C or T
+                                    row: parseInt(locMatch[2], 10) || 9999,
+                                    spot: parseInt(locMatch[3], 10) || 9999
+                                };
+                            }
+
+                            // Fallback to old format parsing
+                            const parts = str.trim().split(/\s+/);
+                            if (parts.length >= 3) {
+                                return {
+                                    section: parts[0], // C or T
+                                    row: parseInt(parts[1], 10) || 9999,
+                                    spot: parseInt(parts[2], 10) || 9999
+                                };
+                            }
+                            return { section: 'ZZZ', row: 9999, spot: 9999 };
+                        };
+
+                        const locA = parseLocation(aVal);
+                        const locB = parseLocation(bVal);
+
+                        // Sort by section, then row, then spot
+                        if (locA.section !== locB.section) {
+                            return currentSort.direction === 'asc'
+                                ? locA.section.localeCompare(locB.section)
+                                : locB.section.localeCompare(locA.section);
+                        }
+                        if (locA.row !== locB.row) {
+                            return currentSort.direction === 'asc'
+                                ? locA.row - locB.row
+                                : locB.row - locA.row;
+                        }
+                        return currentSort.direction === 'asc'
+                            ? locA.spot - locB.spot
+                            : locB.spot - locA.spot;
+                    }
+
+                    // String sorting
+                    aVal = aVal.toString().toLowerCase();
+                    bVal = bVal.toString().toLowerCase();
+
+                    if (currentSort.direction === 'asc') {
+                        return aVal.localeCompare(bVal);
+                    } else {
+                        return bVal.localeCompare(aVal);
+                    }
+                });
+
+                // Re-apply filters (search + part filter) to show only filtered results
+                let filteredSortedData = sortedData;
+                
+                // Apply part filter if active
+                if (activePartFilter) {
+                    filteredSortedData = filteredSortedData.filter(car => {
+                        const carId = `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_');
+                        const parts = getCarParts(carId);
+                        return parts.some(p => {
+                            const partName = typeof p === 'string' ? p : p.name;
+                            return partName.trim() === activePartFilter;
+                        });
+                    });
+                }
+                
+                // Apply search filter
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                if (searchTerm || activePartFilter) {
+                    filteredSortedData = filteredSortedData.filter(car => {
+                        return (
+                            car.car.toLowerCase().includes(searchTerm) ||
+                            car.year.toString().includes(searchTerm) ||
+                            car.date.toLowerCase().includes(searchTerm) ||
+                            (car.location && car.location.toLowerCase().includes(searchTerm))
+                        );
+                    });
+                }
+                
+                displayTable(filteredSortedData);
+                updateStats(filteredSortedData);
+            });
+        });
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+
+            const filteredData = carData.filter(car => {
+                return (
+                    car.car.toLowerCase().includes(searchTerm) ||
+                    car.year.toString().includes(searchTerm) ||
+                    car.date.toLowerCase().includes(searchTerm) ||
+                    (car.location && car.location.toLowerCase().includes(searchTerm))
+                );
+            });
+
+            displayTable(filteredData);
+            updateStats(filteredData);
+        });
+        // Tags Filter Functionality
+        let activePartFilter = null;
+        let activeConfirmedFilter = 'all'; // 'all', 'yes', 'no'
+        let allParts = {};
+
+        // Extract all unique parts from localStorage
+        function loadAllParts() {
+            const partsData = localStorage.getItem('lqkCarParts');
+            if (!partsData) {
+                allParts = {};
+                return;
+            }
+
+            const parsed = JSON.parse(partsData);
+            allParts = {};
+
+            // Count occurrences of each part and track cost
+            for (const [carId, parts] of Object.entries(parsed)) {
+                if (Array.isArray(parts)) {
+                    parts.forEach(part => {
+                        const partName = typeof part === 'object' ? part.name : part;
+                        const partCost = typeof part === 'object' && part.cost ? part.cost : null;
+
+                        if (partName && partName.trim()) {
+                            const trimmedName = partName.trim();
+                            // Store count and cost (use first non-null cost found)
+                            if (!allParts[trimmedName]) {
+                                allParts[trimmedName] = { count: 0, cost: partCost };
+                            }
+                            allParts[trimmedName].count += 1;
+                            // Update cost if not set and current part has a cost
+                            if (!allParts[trimmedName].cost && partCost) {
+                                allParts[trimmedName].cost = partCost;
+                            }
+                        }
+                    });
+                }
+            }
+
+            displayTags();
+        }
+
+        // Display tags
+        function displayTags() {
+            const container = document.getElementById('tagsContainer');
+            const partsArray = Object.entries(allParts).sort((a, b) => b[1].count - a[1].count);
+
+            if (partsArray.length === 0) {
+                container.innerHTML = '<span style="color: var(--text-secondary); font-size: 13px;">No parts added yet</span>';
+                return;
+            }
+
+            container.innerHTML = partsArray.map(([part, data]) => {
+                const costDisplay = data.cost ? `$${data.cost}` : '$---';
+                return `
+                <div class="part-tag" data-part="${escapeHtml(part)}">
+                    <span class="part-name">${escapeHtml(part)} - <span class="part-cost" data-part="${escapeHtml(part).replace(/'/g, "\\'")}" data-cost="${data.cost || ''}" ondblclick="event.stopPropagation(); enableCostEdit(this)">${costDisplay}</span></span>
+                    <span class="part-tag-count">${data.count}</span>
+                </div>
+            `}).join('');
+
+            // Add click handler for filtering (but not when clicking on cost)
+            document.querySelectorAll('.part-tag').forEach(tag => {
+                tag.addEventListener('click', (e) => {
+                    if (!e.target.classList.contains('part-cost')) {
+                        const part = tag.getAttribute('data-part');
+                        filterByPart(part);
+                    }
+                });
+            });
+        }
+
+        // Filter by part
+        function filterByPart(part) {
+            const tagElement = document.querySelector(`.part-tag[data-part="${part}"]`);
+            const clearBtn = document.getElementById('clearTagsBtn');
+
+            // If clicking the already active filter, clear it
+            if (activePartFilter === part) {
+                clearPartFilter();
+                return;
+            }
+
+            // Remove active class from all tags
+            document.querySelectorAll('.part-tag').forEach(tag => tag.classList.remove('active'));
+
+            // Set new active filter
+            activePartFilter = part;
+            tagElement.classList.add('active');
+            clearBtn.style.display = 'inline-block';
+
+            // Apply filter
+            applyFilters();
+        }
+
+        // Clear part filter
+        function clearPartFilter() {
+            activePartFilter = null;
+            document.querySelectorAll('.part-tag').forEach(tag => tag.classList.remove('active'));
+            document.getElementById('clearTagsBtn').style.display = 'none';
+            applyFilters();
+        }
+
+        // Filter by confirmed status
+        function filterByConfirmed(status) {
+            const tagElement = document.querySelector(`.part-tag[data-confirmed="${status}"]`);
+            const clearBtn = document.getElementById('clearConfirmedBtn');
+
+            // If clicking the already active filter, clear it
+            if (activeConfirmedFilter === status) {
+                clearConfirmedFilter();
+                return;
+            }
+
+            // Remove active class from all confirmed tags
+            document.querySelectorAll('#confirmedContainer .part-tag').forEach(tag => tag.classList.remove('active'));
+
+            // Set new active filter
+            activeConfirmedFilter = status;
+            tagElement.classList.add('active');
+            clearBtn.style.display = 'inline-block';
+
+            // Apply filter
+            applyFilters();
+        }
+
+        // Clear confirmed filter
+        function clearConfirmedFilter() {
+            activeConfirmedFilter = 'all';
+            document.querySelectorAll('#confirmedContainer .part-tag').forEach(tag => tag.classList.remove('active'));
+            document.getElementById('clearConfirmedBtn').style.display = 'none';
+            applyFilters();
+        }
+
+        // Update confirmed counts
+        function updateConfirmedCounts() {
+            let allCount = 0;
+            let confirmedCount = 0;
+            let notConfirmedCount = 0;
+
+            carData.forEach(car => {
+                const carId = `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_');
+                const parts = getCarParts(carId);
+                const greenlightedParts = getGreenlightedParts(carId);
+
+                allCount += parts.length;
+
+                parts.forEach(part => {
+                    const partName = typeof part === 'string' ? part : part.name;
+                    if (greenlightedParts.includes(partName)) {
+                        confirmedCount++;
+                    } else {
+                        notConfirmedCount++;
+                    }
+                });
+            });
+
+            document.getElementById('confirmedAllCount').textContent = allCount;
+            document.getElementById('confirmedYesCount').textContent = confirmedCount;
+            document.getElementById('confirmedNoCount').textContent = notConfirmedCount;
+        }
+
+        // Enable inline editing for part cost
+        function enableCostEdit(costElement) {
+            const partName = costElement.getAttribute('data-part');
+            const currentCost = costElement.getAttribute('data-cost');
+
+            // Create input element
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = currentCost;
+            input.className = 'part-cost-input';
+
+            // Prevent filtering when clicking on input
+            input.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            // Replace the span with input
+            costElement.innerHTML = '';
+            costElement.appendChild(input);
+            input.focus();
+            input.select();
+
+            // Handle saving on Enter or blur
+            const saveCost = () => {
+                const newCost = input.value.trim();
+
+                // Validate cost (should be a number or empty)
+                if (newCost !== '' && isNaN(parseFloat(newCost))) {
+                    // Restore original value
+                    const costDisplay = currentCost ? `$${currentCost}` : '$---';
+                    costElement.innerHTML = costDisplay;
+                    return;
+                }
+
+                // Update all instances of this part
+                const partsData = localStorage.getItem('lqkCarParts');
+                if (!partsData) {
+                    const costDisplay = currentCost ? `$${currentCost}` : '$---';
+                    costElement.innerHTML = costDisplay;
+                    return;
+                }
+
+                try {
+                    const allParts = JSON.parse(partsData);
+                    let modified = false;
+
+                    // Iterate through all cars and update the part cost
+                    for (const [carId, parts] of Object.entries(allParts)) {
+                        if (Array.isArray(parts)) {
+                            parts.forEach(part => {
+                                const currentPartName = typeof part === 'object' ? part.name : part;
+                                if (currentPartName === partName) {
+                                    if (typeof part === 'string') {
+                                        // Migrate to object format
+                                        const index = allParts[carId].indexOf(part);
+                                        allParts[carId][index] = {
+                                            name: part,
+                                            str: '',
+                                            price: '',
+                                            cost: newCost === '' ? '' : parseFloat(newCost),
+                                            vol90: ''
+                                        };
+                                    } else {
+                                        part.cost = newCost === '' ? '' : parseFloat(newCost);
+                                    }
+                                    modified = true;
+                                }
+                            });
+                        }
+                    }
+
+                    if (modified) {
+                        localStorage.setItem('lqkCarParts', JSON.stringify(allParts));
+                        loadAllParts();
+                        applyFilters(); // Apply filters to maintain search/filter state
+                    }
+                } catch (e) {
+                    console.error('Error updating part cost:', e);
+                    const costDisplay = currentCost ? `$${currentCost}` : '$---';
+                    costElement.innerHTML = costDisplay;
+                }
+            };
+
+            // Save on Enter key
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    saveCost();
+                }
+            });
+
+            // Save on blur (when clicking away)
+            input.addEventListener('blur', saveCost);
+        }
+
+        // Apply all filters (search + part + confirmed)
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+            const filteredData = carData.filter(car => {
+                // Search filter
+                const matchesSearch = (
+                    car.car.toLowerCase().includes(searchTerm) ||
+                    car.year.toString().includes(searchTerm) ||
+                    car.date.toLowerCase().includes(searchTerm) ||
+                    (car.location && car.location.toLowerCase().includes(searchTerm))
+                );
+
+                if (!matchesSearch) return false;
+
+                // Part filter
+                if (activePartFilter) {
+                    const carId = `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_');
+                    const parts = getCarParts(carId);
+                    const hasPart = parts.some(p => {
+                        const partName = typeof p === 'string' ? p : p.name;
+                        return partName.trim() === activePartFilter;
+                    });
+                    if (!hasPart) return false;
+                }
+
+                // Confirmed filter
+                if (activeConfirmedFilter !== 'all') {
+                    const carId = `car_${car.car}_${car.year}_${car.date}`.replace(/\s+/g, '_');
+                    const greenlightedParts = getGreenlightedParts(carId);
+                    const parts = getCarParts(carId);
+
+                    // Check if car has any confirmed parts
+                    const hasConfirmed = parts.some(p => {
+                        const partName = typeof p === 'string' ? p : p.name;
+                        return greenlightedParts.includes(partName);
+                    });
+
+                    // If filtering for "yes" (confirmed), car must have confirmed parts
+                    // If filtering for "no" (not confirmed), car must have no confirmed parts
+                    if (activeConfirmedFilter === 'yes' && !hasConfirmed) return false;
+                    if (activeConfirmedFilter === 'no' && hasConfirmed) return false;
+                }
+
+                return true;
+            });
+
+            // Apply current sort to filtered data
+            const sortedFilteredData = sortData(filteredData);
+
+            displayTable(sortedFilteredData);
+            updateStats(sortedFilteredData);
+        }
+
+        // Override the original search input handler
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            applyFilters();
+        });
+
+        // Clear tags button handler
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load data from LQK.json first
+            loadData();
+
+            document.getElementById('clearTagsBtn').addEventListener('click', clearPartFilter);
+            document.getElementById('clearConfirmedBtn').addEventListener('click', clearConfirmedFilter);
+        });
+
+        // Reload tags when parts are modified
+        const originalSaveCarParts = saveCarParts;
+        saveCarParts = function() {
+            const result = originalSaveCarParts.apply(this, arguments);
+            loadAllParts();
+            updateConfirmedCounts();
+            return result;
+        };
+
+
+    </script>
+</body>
+</html>

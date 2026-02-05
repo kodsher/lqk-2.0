@@ -1,0 +1,5896 @@
+[
+  {
+    "car": "ACURA INTEGRA",
+    "year": "1990",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 1"
+  },
+  {
+    "car": "ACURA LEGEND",
+    "year": "1991",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 12"
+  },
+  {
+    "car": "ACURA MDX",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 19"
+  },
+  {
+    "car": "ACURA MDX",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 17"
+  },
+  {
+    "car": "ACURA MDX",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 17"
+  },
+  {
+    "car": "ACURA MDX",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 17"
+  },
+  {
+    "car": "ACURA TL",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 12"
+  },
+  {
+    "car": "ACURA TL",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 6"
+  },
+  {
+    "car": "ACURA TL",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/3/2025",
+    "locations": "(1) CARS FRONT 29 17"
+  },
+  {
+    "car": "ACURA TL",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 13"
+  },
+  {
+    "car": "ACURA TL",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 7"
+  },
+  {
+    "car": "ACURA TSX",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 24"
+  },
+  {
+    "car": "AUDI A4",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 15"
+  },
+  {
+    "car": "AUDI A4",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 35 16"
+  },
+  {
+    "car": "AUDI A4",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 18"
+  },
+  {
+    "car": "AUDI A4 QUATTRO",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 9"
+  },
+  {
+    "car": "AUDI Q5",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 9"
+  },
+  {
+    "car": "AUDI Q7",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 67 27"
+  },
+  {
+    "car": "AUDI Q7",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 73 19"
+  },
+  {
+    "car": "BMW 325I",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 28 24"
+  },
+  {
+    "car": "BMW 328I",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 3"
+  },
+  {
+    "car": "BMW 330I",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 30 9"
+  },
+  {
+    "car": "BMW 550I",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/3/2025",
+    "locations": "(1) CARS FRONT 29 15"
+  },
+  {
+    "car": "BMW 750LI",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 3"
+  },
+  {
+    "car": "BMW 750LI",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 8"
+  },
+  {
+    "car": "BMW X3",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 19"
+  },
+  {
+    "car": "BMW X5",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 16"
+  },
+  {
+    "car": "BUICK CENTURY",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 11"
+  },
+  {
+    "car": "BUICK CENTURY",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 10"
+  },
+  {
+    "car": "BUICK CENTURY",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 7"
+  },
+  {
+    "car": "BUICK CENTURY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 6"
+  },
+  {
+    "car": "BUICK CENTURY",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 3"
+  },
+  {
+    "car": "BUICK ENCLAVE",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 7"
+  },
+  {
+    "car": "BUICK ENCLAVE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 2"
+  },
+  {
+    "car": "BUICK ENCORE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 12"
+  },
+  {
+    "car": "BUICK LACROSSE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/17/2025",
+    "locations": "(1) CARS FRONT 22 4"
+  },
+  {
+    "car": "BUICK LACROSSE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 13"
+  },
+  {
+    "car": "BUICK LACROSSE",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 19 19"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 11"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 19"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 5"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 27"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 9"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 16"
+  },
+  {
+    "car": "BUICK LESABRE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 15"
+  },
+  {
+    "car": "BUICK LUCERNE",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 15"
+  },
+  {
+    "car": "BUICK LUCERNE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 19"
+  },
+  {
+    "car": "BUICK LUCERNE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 18"
+  },
+  {
+    "car": "BUICK PARK AVENUE",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 5"
+  },
+  {
+    "car": "BUICK PARK AVENUE",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 20"
+  },
+  {
+    "car": "BUICK PARK AVENUE",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 19"
+  },
+  {
+    "car": "BUICK PARK AVENUE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 58 1"
+  },
+  {
+    "car": "BUICK RENDEZVOUS",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 9"
+  },
+  {
+    "car": "BUICK RENDEZVOUS",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 10"
+  },
+  {
+    "car": "BUICK VERANO",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 7"
+  },
+  {
+    "car": "BUICK VERANO",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 4"
+  },
+  {
+    "car": "CADILLAC ATS",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 2"
+  },
+  {
+    "car": "CADILLAC CTS",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 2"
+  },
+  {
+    "car": "CADILLAC CTS",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 19"
+  },
+  {
+    "car": "CADILLAC CTS",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 7"
+  },
+  {
+    "car": "CADILLAC CTS",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 9"
+  },
+  {
+    "car": "CADILLAC DEVILLE",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 8"
+  },
+  {
+    "car": "CADILLAC DEVILLE",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 7"
+  },
+  {
+    "car": "CADILLAC DEVILLE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 13"
+  },
+  {
+    "car": "CADILLAC SRX",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 5"
+  },
+  {
+    "car": "CADILLAC SRX",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 6"
+  },
+  {
+    "car": "CADILLAC SRX",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 22"
+  },
+  {
+    "car": "CADILLAC SRX",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 1"
+  },
+  {
+    "car": "CADILLAC SRX",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 12"
+  },
+  {
+    "car": "CHEVROLET ASTRO",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 24 18"
+  },
+  {
+    "car": "CHEVROLET ASTRO",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 1"
+  },
+  {
+    "car": "CHEVROLET AVALANCHE 1500",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 11 4"
+  },
+  {
+    "car": "CHEVROLET AVALANCHE 1500",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 11 7"
+  },
+  {
+    "car": "CHEVROLET AVEO",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 5"
+  },
+  {
+    "car": "CHEVROLET AVEO",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 42 6"
+  },
+  {
+    "car": "CHEVROLET BLAZER",
+    "year": "1995",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 6"
+  },
+  {
+    "car": "CHEVROLET BLAZER",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 1"
+  },
+  {
+    "car": "CHEVROLET BLAZER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 8"
+  },
+  {
+    "car": "CHEVROLET C/K 30 SERIES",
+    "year": "1982",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 3"
+  },
+  {
+    "car": "CHEVROLET C1500",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 4 8"
+  },
+  {
+    "car": "CHEVROLET C1500",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 2"
+  },
+  {
+    "car": "CHEVROLET C1500",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) TRUCKS 9 12"
+  },
+  {
+    "car": "CHEVROLET C2500",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) TRUCKS 10 12"
+  },
+  {
+    "car": "CHEVROLET CAMARO",
+    "year": "1987",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 24"
+  },
+  {
+    "car": "CHEVROLET CAMARO",
+    "year": "1992",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 6"
+  },
+  {
+    "car": "CHEVROLET CAMARO",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 41 4"
+  },
+  {
+    "car": "CHEVROLET CAVALIER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 16"
+  },
+  {
+    "car": "CHEVROLET CAVALIER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 10"
+  },
+  {
+    "car": "CHEVROLET CELEBRITY",
+    "year": "1990",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 7"
+  },
+  {
+    "car": "CHEVROLET CLASSIC",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 10"
+  },
+  {
+    "car": "CHEVROLET CLASSIC",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 24"
+  },
+  {
+    "car": "CHEVROLET COBALT",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 14"
+  },
+  {
+    "car": "CHEVROLET COBALT",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 13"
+  },
+  {
+    "car": "CHEVROLET COBALT",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 43 3"
+  },
+  {
+    "car": "CHEVROLET COBALT",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 11"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 9"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 26"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 4"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 6"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 8"
+  },
+  {
+    "car": "CHEVROLET CRUZE",
+    "year": "2018",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 4"
+  },
+  {
+    "car": "CHEVROLET CRUZE LIMITED",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 65 23"
+  },
+  {
+    "car": "CHEVROLET EQUINOX",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 11/18/2025",
+    "locations": "(1) CARS FRONT 22 19"
+  },
+  {
+    "car": "CHEVROLET EQUINOX",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 24"
+  },
+  {
+    "car": "CHEVROLET EQUINOX",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 11"
+  },
+  {
+    "car": "CHEVROLET EQUINOX",
+    "year": "2019",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 1"
+  },
+  {
+    "car": "CHEVROLET EXPRESS 1500",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 11 1"
+  },
+  {
+    "car": "CHEVROLET EXPRESS 2500",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/22/2025",
+    "locations": "(1) CARS FRONT 8 6"
+  },
+  {
+    "car": "CHEVROLET EXPRESS 2500",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 6"
+  },
+  {
+    "car": "CHEVROLET G20",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 11 3"
+  },
+  {
+    "car": "CHEVROLET HHR",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 43 11"
+  },
+  {
+    "car": "CHEVROLET HHR",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 8"
+  },
+  {
+    "car": "CHEVROLET HHR",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 14"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 11"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 35 21"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 15"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 11"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 14"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 18"
+  },
+  {
+    "car": "CHEVROLET IMPALA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 28 10"
+  },
+  {
+    "car": "CHEVROLET K1500",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 3 6"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 5"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 22"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 12"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 67 26"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 1"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 19"
+  },
+  {
+    "car": "CHEVROLET MALIBU",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 20"
+  },
+  {
+    "car": "CHEVROLET MONTE CARLO",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 19"
+  },
+  {
+    "car": "CHEVROLET S10",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) TRUCKS 9 13"
+  },
+  {
+    "car": "CHEVROLET S10",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) TRUCKS 9 14"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 10 6"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) TRUCKS 10 20"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 2 6"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 2 4"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 1 7"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 10 3"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 1500 CLASSIC",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) TRUCKS 10 16"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 2500 HD",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 4"
+  },
+  {
+    "car": "CHEVROLET SILVERADO 2500 HD",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 8 1"
+  },
+  {
+    "car": "CHEVROLET SONIC",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 12"
+  },
+  {
+    "car": "CHEVROLET SONIC",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 20"
+  },
+  {
+    "car": "CHEVROLET SUBURBAN",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 11 9"
+  },
+  {
+    "car": "CHEVROLET SUBURBAN 1500",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 6 6"
+  },
+  {
+    "car": "CHEVROLET SUBURBAN 1500",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) TRUCKS 10 11"
+  },
+  {
+    "car": "CHEVROLET SUBURBAN 1500",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) TRUCKS 9 19"
+  },
+  {
+    "car": "CHEVROLET SUBURBAN 1500",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 10 4"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 35 15"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 12"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 23"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 10"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 8"
+  },
+  {
+    "car": "CHEVROLET TAHOE",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 62 4"
+  },
+  {
+    "car": "CHEVROLET TRAILBLAZER",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 10"
+  },
+  {
+    "car": "CHEVROLET TRAILBLAZER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 4"
+  },
+  {
+    "car": "CHEVROLET TRAILBLAZER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 8"
+  },
+  {
+    "car": "CHEVROLET TRAILBLAZER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 42 7"
+  },
+  {
+    "car": "CHEVROLET TRAILBLAZER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 11"
+  },
+  {
+    "car": "CHEVROLET TRAVERSE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 21"
+  },
+  {
+    "car": "CHEVROLET TRAVERSE",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 5"
+  },
+  {
+    "car": "CHEVROLET TRAVERSE",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 4"
+  },
+  {
+    "car": "CHEVROLET UPLANDER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/3/2025",
+    "locations": "(1) CARS FRONT 29 8"
+  },
+  {
+    "car": "CHEVROLET UPLANDER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 1"
+  },
+  {
+    "car": "CHEVROLET UPLANDER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 10"
+  },
+  {
+    "car": "CHEVROLET VOLT",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 45 5"
+  },
+  {
+    "car": "CHRYSLER 200",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 8"
+  },
+  {
+    "car": "CHRYSLER 200",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 19"
+  },
+  {
+    "car": "CHRYSLER 200",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 42 4"
+  },
+  {
+    "car": "CHRYSLER 300",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 8"
+  },
+  {
+    "car": "CHRYSLER 300",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 15"
+  },
+  {
+    "car": "CHRYSLER 300",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 1"
+  },
+  {
+    "car": "CHRYSLER ASPEN",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 25"
+  },
+  {
+    "car": "CHRYSLER CONCORDE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 5"
+  },
+  {
+    "car": "CHRYSLER CROSSFIRE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 7"
+  },
+  {
+    "car": "CHRYSLER LEBARON",
+    "year": "1991",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 28 18"
+  },
+  {
+    "car": "CHRYSLER PACIFICA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 12"
+  },
+  {
+    "car": "CHRYSLER PACIFICA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 29 19"
+  },
+  {
+    "car": "CHRYSLER PT CRUISER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 9"
+  },
+  {
+    "car": "CHRYSLER SEBRING",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 9"
+  },
+  {
+    "car": "CHRYSLER SEBRING",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 10"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 20"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 14"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 5"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 27"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 8"
+  },
+  {
+    "car": "CHRYSLER TOWN & COUNTRY",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 5"
+  },
+  {
+    "car": "DODGE AVENGER",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 1"
+  },
+  {
+    "car": "DODGE AVENGER",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 17"
+  },
+  {
+    "car": "DODGE AVENGER",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 60 14"
+  },
+  {
+    "car": "DODGE CALIBER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 15"
+  },
+  {
+    "car": "DODGE CALIBER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 17"
+  },
+  {
+    "car": "DODGE CALIBER",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 5"
+  },
+  {
+    "car": "DODGE CALIBER",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 7"
+  },
+  {
+    "car": "DODGE CALIBER",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 8"
+  },
+  {
+    "car": "DODGE CARAVAN",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 9"
+  },
+  {
+    "car": "DODGE CHARGER",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 16"
+  },
+  {
+    "car": "DODGE CHARGER",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 19"
+  },
+  {
+    "car": "DODGE D150",
+    "year": "1988",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) TRUCKS 10 10"
+  },
+  {
+    "car": "DODGE DAKOTA",
+    "year": "1991",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) TRUCKS 9 10"
+  },
+  {
+    "car": "DODGE DAKOTA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 9 2"
+  },
+  {
+    "car": "DODGE DAKOTA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 6 9"
+  },
+  {
+    "car": "DODGE DAKOTA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 11 8"
+  },
+  {
+    "car": "DODGE DAKOTA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) TRUCKS 9 9"
+  },
+  {
+    "car": "DODGE DART",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 11"
+  },
+  {
+    "car": "DODGE DURANGO",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 14"
+  },
+  {
+    "car": "DODGE DURANGO",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 6"
+  },
+  {
+    "car": "DODGE DURANGO",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 5"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 24"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 70 3"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 23"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 11"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 4"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 74 13"
+  },
+  {
+    "car": "DODGE GRAND CARAVAN",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 13"
+  },
+  {
+    "car": "DODGE JOURNEY",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 4"
+  },
+  {
+    "car": "DODGE JOURNEY",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 17"
+  },
+  {
+    "car": "DODGE JOURNEY",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 9"
+  },
+  {
+    "car": "DODGE JOURNEY",
+    "year": "2018",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 29 23"
+  },
+  {
+    "car": "DODGE MAGNUM",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 28 15"
+  },
+  {
+    "car": "DODGE MAGNUM",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 1"
+  },
+  {
+    "car": "DODGE NEON",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 2"
+  },
+  {
+    "car": "DODGE NEON",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 4"
+  },
+  {
+    "car": "DODGE RAM",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 4 5"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) TRUCKS 9 8"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 4 1"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 2 7"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 4 6"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 9"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 6 8"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 6 2"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 2"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 4"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) TRUCKS 10 18"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 7"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 7"
+  },
+  {
+    "car": "DODGE RAM 1500",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 3 1"
+  },
+  {
+    "car": "DODGE RAM 1500 VAN",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 8 9"
+  },
+  {
+    "car": "DODGE STRATUS",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 26"
+  },
+  {
+    "car": "FIAT 500",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 67 24"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 24 15"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 26 20"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 11"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 13"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 15"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 30 3"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 1"
+  },
+  {
+    "car": "FORD CROWN VICTORIA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 25"
+  },
+  {
+    "car": "FORD E-150",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 10 2"
+  },
+  {
+    "car": "FORD E-150",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 3 2"
+  },
+  {
+    "car": "FORD E-150 ECONOLINE",
+    "year": "1988",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 8"
+  },
+  {
+    "car": "FORD E-150 ECONOLINE",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 5"
+  },
+  {
+    "car": "FORD E-150 ECONOLINE",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 9 3"
+  },
+  {
+    "car": "FORD E-250 ECONOLINE",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 1 8"
+  },
+  {
+    "car": "FORD EDGE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 21"
+  },
+  {
+    "car": "FORD EDGE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 20"
+  },
+  {
+    "car": "FORD EDGE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 4"
+  },
+  {
+    "car": "FORD EDGE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 13"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 5"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 4"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 2"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 14"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 6"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 17"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 18"
+  },
+  {
+    "car": "FORD ESCAPE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 18"
+  },
+  {
+    "car": "FORD ESCORT",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 6"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 28 5"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 6"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 18"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 21"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 3"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 12"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 6"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 8"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 44 11"
+  },
+  {
+    "car": "FORD EXPEDITION",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 25"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "1995",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 19"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 5"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 45 1"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 14"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 42 3"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 5"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 5"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 4"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 20"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 26"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 6"
+  },
+  {
+    "car": "FORD EXPLORER",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 9"
+  },
+  {
+    "car": "FORD EXPLORER SPORT",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 42 10"
+  },
+  {
+    "car": "FORD EXPLORER SPORT TRAC",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) TRUCKS 9 7"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "1985",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) TRUCKS 9 18"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "1989",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 1 2"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 8 5"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 7"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) TRUCKS 9 11"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 2"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 6"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) TRUCKS 9 6"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) TRUCKS 9 17"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 6"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) TRUCKS 10 14"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) TRUCKS 9 1"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 6 4"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) TRUCKS 9 16"
+  },
+  {
+    "car": "FORD F-150",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 1 3"
+  },
+  {
+    "car": "FORD F-250 SUPER DUTY",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 5"
+  },
+  {
+    "car": "FORD FIESTA",
+    "year": "2019",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 3"
+  },
+  {
+    "car": "FORD FIVE HUNDRED",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 1"
+  },
+  {
+    "car": "FORD FIVE HUNDRED",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 2"
+  },
+  {
+    "car": "FORD FIVE HUNDRED",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 18"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 21"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 25"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 2"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 41 8"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 23"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 43 7"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 5"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 8"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 5"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 2"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 20"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 6"
+  },
+  {
+    "car": "FORD FOCUS",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 8"
+  },
+  {
+    "car": "FORD FREESTAR",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 20"
+  },
+  {
+    "car": "FORD FREESTYLE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 6"
+  },
+  {
+    "car": "FORD FREESTYLE",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 17"
+  },
+  {
+    "car": "FORD FUSION",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 25"
+  },
+  {
+    "car": "FORD FUSION",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 11"
+  },
+  {
+    "car": "FORD FUSION",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 20"
+  },
+  {
+    "car": "FORD FUSION",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 7"
+  },
+  {
+    "car": "FORD FUSION",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 6"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 12"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 14"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 60 9"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 2"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 4"
+  },
+  {
+    "car": "FORD MUSTANG",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 45 9"
+  },
+  {
+    "car": "FORD RANGER",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) TRUCKS 10 9"
+  },
+  {
+    "car": "FORD RANGER",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 4 2"
+  },
+  {
+    "car": "FORD RANGER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 6 3"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 45 6"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 5"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 4"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 17"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 67 6"
+  },
+  {
+    "car": "FORD TAURUS",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 7"
+  },
+  {
+    "car": "FORD TRANSIT CONNECT",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 7"
+  },
+  {
+    "car": "FORD WINDSTAR",
+    "year": "1995",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 4"
+  },
+  {
+    "car": "FORD WINDSTAR",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 13"
+  },
+  {
+    "car": "GMC ACADIA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 16"
+  },
+  {
+    "car": "GMC ACADIA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 16"
+  },
+  {
+    "car": "GMC ACADIA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 9"
+  },
+  {
+    "car": "GMC ACADIA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 17"
+  },
+  {
+    "car": "GMC C1500",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 6 7"
+  },
+  {
+    "car": "GMC C2500",
+    "year": "1995",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) TRUCKS 10 13"
+  },
+  {
+    "car": "GMC ENVOY",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 29 2"
+  },
+  {
+    "car": "GMC ENVOY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 9"
+  },
+  {
+    "car": "GMC ENVOY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 56 6"
+  },
+  {
+    "car": "GMC ENVOY XL",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 6"
+  },
+  {
+    "car": "GMC ENVOY XL",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 23"
+  },
+  {
+    "car": "GMC SIERRA 1500",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) TRUCKS 9 20"
+  },
+  {
+    "car": "GMC SIERRA 1500",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) TRUCKS 9 4"
+  },
+  {
+    "car": "GMC SIERRA 2500 HD",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 8"
+  },
+  {
+    "car": "GMC TERRAIN",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 14"
+  },
+  {
+    "car": "GMC YUKON",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 70 1"
+  },
+  {
+    "car": "GMC YUKON",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 22"
+  },
+  {
+    "car": "GMC YUKON",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 8"
+  },
+  {
+    "car": "GMC YUKON",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 10"
+  },
+  {
+    "car": "GMC YUKON XL 1500",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) TRUCKS 9 15"
+  },
+  {
+    "car": "GMC YUKON XL 1500",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 11 1"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "1990",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 11"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 8"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 21"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 13"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 21"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 3"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 8"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 70 26"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 1"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 17"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 18"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 74 17"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 3"
+  },
+  {
+    "car": "HONDA ACCORD",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 1"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 4"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 12"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 15"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 22"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 67 3"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/3/2025",
+    "locations": "(1) CARS FRONT 29 14"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 15"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 14"
+  },
+  {
+    "car": "HONDA CIVIC",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 9"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 16"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 60 11"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 24 16"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 17"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 34 4"
+  },
+  {
+    "car": "HONDA CR-V",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 11/10/2025",
+    "locations": "(1) CARS FRONT 18 13"
+  },
+  {
+    "car": "HONDA CR-Z",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 22 1"
+  },
+  {
+    "car": "HONDA ELEMENT",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 26"
+  },
+  {
+    "car": "HONDA FIT",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 16"
+  },
+  {
+    "car": "HONDA INSIGHT",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 3"
+  },
+  {
+    "car": "HONDA INSIGHT",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 2"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 60 8"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 3"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 2"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 10"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/10/2025",
+    "locations": "(1) CARS FRONT 19 1"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 65 26"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 44 6"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 5"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 5"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 6"
+  },
+  {
+    "car": "HONDA ODYSSEY",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 16"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 21"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 6"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 65 2"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 7"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 3"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 8"
+  },
+  {
+    "car": "HONDA PILOT",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 7"
+  },
+  {
+    "car": "HUMMER H3",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 5"
+  },
+  {
+    "car": "HUMMER H3",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 3"
+  },
+  {
+    "car": "HYUNDAI ACCENT",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 8"
+  },
+  {
+    "car": "HYUNDAI ACCENT",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 49 9"
+  },
+  {
+    "car": "HYUNDAI ACCENT",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 1"
+  },
+  {
+    "car": "HYUNDAI ACCENT",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/13/2025",
+    "locations": "(1) CARS FRONT 21 4"
+  },
+  {
+    "car": "HYUNDAI ACCENT",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 2"
+  },
+  {
+    "car": "HYUNDAI AZERA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 24"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 26 21"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 15"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 5"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 7"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 16"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 3"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 2"
+  },
+  {
+    "car": "HYUNDAI ELANTRA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 9"
+  },
+  {
+    "car": "HYUNDAI ELANTRA COUPE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 2"
+  },
+  {
+    "car": "HYUNDAI ELANTRA GT",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 65 25"
+  },
+  {
+    "car": "HYUNDAI GENESIS",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 22"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 61 1"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 16"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 14"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 18"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 34 2"
+  },
+  {
+    "car": "HYUNDAI SANTA FE",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 21"
+  },
+  {
+    "car": "HYUNDAI SANTA FE SPORT",
+    "year": "2018",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 20"
+  },
+  {
+    "car": "HYUNDAI SONATA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 17"
+  },
+  {
+    "car": "HYUNDAI SONATA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 8"
+  },
+  {
+    "car": "HYUNDAI SONATA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 70 25"
+  },
+  {
+    "car": "HYUNDAI SONATA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 2"
+  },
+  {
+    "car": "HYUNDAI SONATA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 15"
+  },
+  {
+    "car": "HYUNDAI TIBURON",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 56 8"
+  },
+  {
+    "car": "INFINITI EX35",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 1"
+  },
+  {
+    "car": "INFINITI EX35",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 7"
+  },
+  {
+    "car": "INFINITI FX35",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 14"
+  },
+  {
+    "car": "INFINITI FX35",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 3"
+  },
+  {
+    "car": "INFINITI G20",
+    "year": "1993",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 9"
+  },
+  {
+    "car": "INFINITI G35",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 10"
+  },
+  {
+    "car": "INFINITI G35",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 16"
+  },
+  {
+    "car": "INFINITI G35",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 11/18/2025",
+    "locations": "(1) CARS FRONT 22 15"
+  },
+  {
+    "car": "INFINITI G35",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 16"
+  },
+  {
+    "car": "INFINITI G37",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/18/2025",
+    "locations": "(1) CARS FRONT 22 17"
+  },
+  {
+    "car": "INFINITI G37",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 44 10"
+  },
+  {
+    "car": "INFINITI M35H",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 11"
+  },
+  {
+    "car": "INFINITI QX4",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 20"
+  },
+  {
+    "car": "INFINITI QX56",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 21"
+  },
+  {
+    "car": "INFINITI QX60",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 2"
+  },
+  {
+    "car": "INFINITI QX60",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 9"
+  },
+  {
+    "car": "ISUZU ASCENDER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 4"
+  },
+  {
+    "car": "ISUZU RODEO",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 15"
+  },
+  {
+    "car": "ISUZU RODEO",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 42 2"
+  },
+  {
+    "car": "ISUZU TROOPER",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 5"
+  },
+  {
+    "car": "JAGUAR VANDEN PLAS",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 10"
+  },
+  {
+    "car": "JAGUAR XF",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 22"
+  },
+  {
+    "car": "JAGUAR XJ6",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 51 3"
+  },
+  {
+    "car": "JAGUAR XJS",
+    "year": "1987",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 22"
+  },
+  {
+    "car": "JAGUAR XJS",
+    "year": "1989",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 24 19"
+  },
+  {
+    "car": "JEEP CHEROKEE",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 17"
+  },
+  {
+    "car": "JEEP COMMANDER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 74 16"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 25"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 7"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 8"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 6"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 9"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 1 1"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 7"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 20"
+  },
+  {
+    "car": "JEEP GRAND CHEROKEE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 12"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 4"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 62 6"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 14"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 9"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 22"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 67 2"
+  },
+  {
+    "car": "JEEP LIBERTY",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 27"
+  },
+  {
+    "car": "JEEP WRANGLER",
+    "year": "1995",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 1"
+  },
+  {
+    "car": "KIA FORTE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 10"
+  },
+  {
+    "car": "KIA FORTE",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 24"
+  },
+  {
+    "car": "KIA OPTIMA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 21"
+  },
+  {
+    "car": "KIA OPTIMA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 30"
+  },
+  {
+    "car": "KIA OPTIMA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 15"
+  },
+  {
+    "car": "KIA RIO",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 14"
+  },
+  {
+    "car": "KIA RIO5",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 8"
+  },
+  {
+    "car": "KIA SEPHIA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 20"
+  },
+  {
+    "car": "KIA SORENTO",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 10"
+  },
+  {
+    "car": "KIA SORENTO",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 4"
+  },
+  {
+    "car": "KIA SORENTO",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 47 11"
+  },
+  {
+    "car": "KIA SORENTO",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 6"
+  },
+  {
+    "car": "KIA SORENTO",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 6"
+  },
+  {
+    "car": "KIA SOUL",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 15"
+  },
+  {
+    "car": "KIA SOUL",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 9"
+  },
+  {
+    "car": "KIA SOUL",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 12"
+  },
+  {
+    "car": "KIA SPECTRA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 18"
+  },
+  {
+    "car": "KIA SPECTRA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 26"
+  },
+  {
+    "car": "KIA SPECTRA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 40 10"
+  },
+  {
+    "car": "KIA SPECTRA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 16"
+  },
+  {
+    "car": "KIA SPECTRA5",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 12"
+  },
+  {
+    "car": "LAND ROVER DISCOVERY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 17"
+  },
+  {
+    "car": "LAND ROVER LR3",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 7"
+  },
+  {
+    "car": "LAND ROVER RANGE ROVER SPORT",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 15"
+  },
+  {
+    "car": "LEXUS ES300",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 2"
+  },
+  {
+    "car": "LEXUS ES300",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 56 5"
+  },
+  {
+    "car": "LEXUS ES300",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 7"
+  },
+  {
+    "car": "LEXUS ES330",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 10"
+  },
+  {
+    "car": "LEXUS ES350",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 3"
+  },
+  {
+    "car": "LEXUS ES350",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 16"
+  },
+  {
+    "car": "LEXUS GS300",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 23"
+  },
+  {
+    "car": "LEXUS GS300",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 6"
+  },
+  {
+    "car": "LEXUS GS300",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 9"
+  },
+  {
+    "car": "LEXUS GS430",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 34 1"
+  },
+  {
+    "car": "LEXUS IS 250",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 12"
+  },
+  {
+    "car": "LEXUS LS400",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 7"
+  },
+  {
+    "car": "LEXUS RX300",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 25"
+  },
+  {
+    "car": "LEXUS RX300",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 35 17"
+  },
+  {
+    "car": "LEXUS RX330",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 14"
+  },
+  {
+    "car": "LEXUS RX400H",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 14"
+  },
+  {
+    "car": "LEXUS SC300",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 11"
+  },
+  {
+    "car": "LINCOLN MKZ",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 10"
+  },
+  {
+    "car": "LINCOLN MKZ",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 9"
+  },
+  {
+    "car": "LINCOLN NAVIGATOR",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 6"
+  },
+  {
+    "car": "LINCOLN NAVIGATOR",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 9"
+  },
+  {
+    "car": "LINCOLN NAVIGATOR",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 5"
+  },
+  {
+    "car": "LINCOLN TOWN CAR",
+    "year": "1994",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 17"
+  },
+  {
+    "car": "LINCOLN TOWN CAR",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 47 5"
+  },
+  {
+    "car": "MAZDA 2",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 23"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 14"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 4"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 14"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 16"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 4"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 57 4"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 7"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 11"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 1"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 8"
+  },
+  {
+    "car": "MAZDA 3",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 19"
+  },
+  {
+    "car": "MAZDA 6",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/13/2025",
+    "locations": "(1) CARS FRONT 20 14"
+  },
+  {
+    "car": "MAZDA 6",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 18"
+  },
+  {
+    "car": "MAZDA B2300",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 9 4"
+  },
+  {
+    "car": "MAZDA MIATA",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 11"
+  },
+  {
+    "car": "MAZDA PROTEGE",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 3"
+  },
+  {
+    "car": "MAZDA PROTEGE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 3"
+  },
+  {
+    "car": "MAZDA PROTEGE",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) TRUCKS 1 2"
+  },
+  {
+    "car": "MAZDA TRIBUTE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 3"
+  },
+  {
+    "car": "MAZDA TRIBUTE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 75 18"
+  },
+  {
+    "car": "MAZDA TRIBUTE",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 13"
+  },
+  {
+    "car": "MAZDA TRIBUTE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 10"
+  },
+  {
+    "car": "MERCEDES-BENZ C230",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 22"
+  },
+  {
+    "car": "MERCEDES-BENZ C230",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 19"
+  },
+  {
+    "car": "MERCEDES-BENZ C230",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 9"
+  },
+  {
+    "car": "MERCEDES-BENZ C240",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 23"
+  },
+  {
+    "car": "MERCEDES-BENZ C240",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 10"
+  },
+  {
+    "car": "MERCEDES-BENZ C250",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 14"
+  },
+  {
+    "car": "MERCEDES-BENZ C250",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 3"
+  },
+  {
+    "car": "MERCEDES-BENZ C300",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 4"
+  },
+  {
+    "car": "MERCEDES-BENZ C300",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 7"
+  },
+  {
+    "car": "MERCEDES-BENZ C300",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 20"
+  },
+  {
+    "car": "MERCEDES-BENZ CLK430",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 9"
+  },
+  {
+    "car": "MERCEDES-BENZ CLK430",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 18"
+  },
+  {
+    "car": "MERCEDES-BENZ CLS500",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 3"
+  },
+  {
+    "car": "MERCEDES-BENZ E320",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 28 22"
+  },
+  {
+    "car": "MERCEDES-BENZ E320",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 6"
+  },
+  {
+    "car": "MERCEDES-BENZ E350",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 8"
+  },
+  {
+    "car": "MERCEDES-BENZ E350",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 23"
+  },
+  {
+    "car": "MERCEDES-BENZ E430",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 12"
+  },
+  {
+    "car": "MERCEDES-BENZ GL320",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 22"
+  },
+  {
+    "car": "MERCEDES-BENZ GL450",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 18"
+  },
+  {
+    "car": "MERCEDES-BENZ ML320",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 5"
+  },
+  {
+    "car": "MERCEDES-BENZ ML320",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 9"
+  },
+  {
+    "car": "MERCEDES-BENZ ML350",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 12"
+  },
+  {
+    "car": "MERCEDES-BENZ ML350",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 6"
+  },
+  {
+    "car": "MERCEDES-BENZ ML350",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 6"
+  },
+  {
+    "car": "MERCEDES-BENZ SLK320",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 4"
+  },
+  {
+    "car": "MERCURY COUGAR",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 22"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 41 9"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 5"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 74 18"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 28 13"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/13/2025",
+    "locations": "(1) CARS FRONT 35 4"
+  },
+  {
+    "car": "MERCURY GRAND MARQUIS",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 2"
+  },
+  {
+    "car": "MERCURY MARINER",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 26 17"
+  },
+  {
+    "car": "MERCURY MILAN",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 18"
+  },
+  {
+    "car": "MERCURY MOUNTAINEER",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 32 17"
+  },
+  {
+    "car": "MERCURY MOUNTAINEER",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 23"
+  },
+  {
+    "car": "MERCURY MOUNTAINEER",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 25"
+  },
+  {
+    "car": "MERCURY MOUNTAINEER",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 17"
+  },
+  {
+    "car": "MERCURY SABLE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/18/2025",
+    "locations": "(1) CARS FRONT 22 14"
+  },
+  {
+    "car": "MINI COOPER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/17/2025",
+    "locations": "(1) CARS FRONT 22 3"
+  },
+  {
+    "car": "MINI COOPER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 3"
+  },
+  {
+    "car": "MINI COOPER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 60 12"
+  },
+  {
+    "car": "MINI COOPER",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 18"
+  },
+  {
+    "car": "MINI COOPER",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 1"
+  },
+  {
+    "car": "MINI COOPER COUNTRYMAN",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 19"
+  },
+  {
+    "car": "MINI COOPER COUNTRYMAN",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 13"
+  },
+  {
+    "car": "MITSUBISHI ECLIPSE",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 5"
+  },
+  {
+    "car": "MITSUBISHI ECLIPSE",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 1"
+  },
+  {
+    "car": "MITSUBISHI ENDEAVOR",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 7"
+  },
+  {
+    "car": "MITSUBISHI ENDEAVOR",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 12"
+  },
+  {
+    "car": "MITSUBISHI ENDEAVOR",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 3"
+  },
+  {
+    "car": "MITSUBISHI GALANT",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 6"
+  },
+  {
+    "car": "MITSUBISHI GALANT",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 20"
+  },
+  {
+    "car": "MITSUBISHI GALANT",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 28"
+  },
+  {
+    "car": "MITSUBISHI GALANT",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 64 23"
+  },
+  {
+    "car": "MITSUBISHI GALANT",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 9"
+  },
+  {
+    "car": "MITSUBISHI LANCER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 20"
+  },
+  {
+    "car": "MITSUBISHI LANCER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 73 3"
+  },
+  {
+    "car": "MITSUBISHI LANCER",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 17"
+  },
+  {
+    "car": "MITSUBISHI LANCER",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 13"
+  },
+  {
+    "car": "MITSUBISHI MIRAGE",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 11"
+  },
+  {
+    "car": "MITSUBISHI MONTERO SPORT",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 71 26"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 10"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 30 6"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 29 1"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 10"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 14"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 2"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 18"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 40 9"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 6"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 8"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 10"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 5"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 6"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 14"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 17"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 15"
+  },
+  {
+    "car": "NISSAN ALTIMA",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 3"
+  },
+  {
+    "car": "NISSAN ARMADA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 17"
+  },
+  {
+    "car": "NISSAN ARMADA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 49 10"
+  },
+  {
+    "car": "NISSAN FRONTIER",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) TRUCKS 9 3"
+  },
+  {
+    "car": "NISSAN FRONTIER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 5 1"
+  },
+  {
+    "car": "NISSAN FRONTIER",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) TRUCKS 10 8"
+  },
+  {
+    "car": "NISSAN JUKE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 4"
+  },
+  {
+    "car": "NISSAN LEAF",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 24 1"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 1"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 41 11"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 3"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 4"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 1"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 4"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 10"
+  },
+  {
+    "car": "NISSAN MAXIMA",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 22"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 12"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/1/2025",
+    "locations": "(1) CARS FRONT 28 21"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 22"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 9"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 11"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 1"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 21"
+  },
+  {
+    "car": "NISSAN MURANO",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 7"
+  },
+  {
+    "car": "NISSAN NV200",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 10"
+  },
+  {
+    "car": "NISSAN PATHFINDER",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 56 1"
+  },
+  {
+    "car": "NISSAN PATHFINDER",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 13"
+  },
+  {
+    "car": "NISSAN PATHFINDER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 15"
+  },
+  {
+    "car": "NISSAN PATHFINDER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 72 4"
+  },
+  {
+    "car": "NISSAN PATHFINDER",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 8"
+  },
+  {
+    "car": "NISSAN PATHFINDER ARMADA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/3/2025",
+    "locations": "(1) CARS FRONT 29 12"
+  },
+  {
+    "car": "NISSAN PULSAR NX",
+    "year": "1989",
+    "count": "1",
+    "dates": "(1) 12/12/2025",
+    "locations": "(1) CARS FRONT 34 13"
+  },
+  {
+    "car": "NISSAN QUEST",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 43 4"
+  },
+  {
+    "car": "NISSAN QUEST",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 7"
+  },
+  {
+    "car": "NISSAN QUEST",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 10"
+  },
+  {
+    "car": "NISSAN QUEST",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 27 9"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 44 3"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 20"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 4"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 3"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 11"
+  },
+  {
+    "car": "NISSAN ROGUE",
+    "year": "2016",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 5"
+  },
+  {
+    "car": "NISSAN ROGUE SELECT",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 13"
+  },
+  {
+    "car": "NISSAN ROGUE SPORT",
+    "year": "2021",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 13"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "1989",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 9"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 10"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/28/2025",
+    "locations": "(1) CARS FRONT 26 18"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/26/2025",
+    "locations": "(1) CARS FRONT 46 3"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 20"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 16"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 24"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 67 1"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 69 23"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 11"
+  },
+  {
+    "car": "NISSAN SENTRA",
+    "year": "2019",
+    "count": "1",
+    "dates": "(1) 1/30/2026",
+    "locations": "(1) CARS FRONT 74 2"
+  },
+  {
+    "car": "NISSAN TITAN",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 4"
+  },
+  {
+    "car": "NISSAN VERSA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 2"
+  },
+  {
+    "car": "NISSAN VERSA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/31/2026",
+    "locations": "(1) CARS FRONT 75 11"
+  },
+  {
+    "car": "NISSAN VERSA",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 11"
+  },
+  {
+    "car": "NISSAN VERSA",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 3"
+  },
+  {
+    "car": "NISSAN VERSA",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 12"
+  },
+  {
+    "car": "NISSAN VERSA NOTE",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/23/2026",
+    "locations": "(1) CARS FRONT 70 4"
+  },
+  {
+    "car": "NISSAN VERSA NOTE",
+    "year": "2015",
+    "count": "1",
+    "dates": "(1) 1/28/2026",
+    "locations": "(1) CARS FRONT 73 17"
+  },
+  {
+    "car": "NISSAN XTERRA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 11/17/2025",
+    "locations": "(1) CARS FRONT 22 8"
+  },
+  {
+    "car": "NISSAN XTERRA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 3"
+  },
+  {
+    "car": "NISSAN XTERRA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 13"
+  },
+  {
+    "car": "NISSAN XTERRA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 23"
+  },
+  {
+    "car": "NISSAN XTERRA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 7"
+  },
+  {
+    "car": "OLDSMOBILE CUTLASS CIERA",
+    "year": "1991",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 10"
+  },
+  {
+    "car": "OLDSMOBILE INTRIGUE",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 5"
+  },
+  {
+    "car": "PONTIAC BONNEVILLE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 5"
+  },
+  {
+    "car": "PONTIAC FIERO",
+    "year": "1986",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 15"
+  },
+  {
+    "car": "PONTIAC G6",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 14"
+  },
+  {
+    "car": "PONTIAC G6",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/12/2025",
+    "locations": "(1) CARS FRONT 20 8"
+  },
+  {
+    "car": "PONTIAC GRAND PRIX",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 21"
+  },
+  {
+    "car": "PONTIAC GRAND PRIX",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 25"
+  },
+  {
+    "car": "PONTIAC GRAND PRIX",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 18"
+  },
+  {
+    "car": "PONTIAC VIBE",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/13/2025",
+    "locations": "(1) CARS FRONT 20 16"
+  },
+  {
+    "car": "PORSCHE CAYENNE",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 18"
+  },
+  {
+    "car": "RAM 1500 CLASSIC",
+    "year": "2019",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 5 3"
+  },
+  {
+    "car": "SATURN AURA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/15/2025",
+    "locations": "(1) CARS FRONT 35 20"
+  },
+  {
+    "car": "SATURN ION",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 14"
+  },
+  {
+    "car": "SATURN SL1",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/22/2026",
+    "locations": "(1) CARS FRONT 70 18"
+  },
+  {
+    "car": "SATURN SL2",
+    "year": "1996",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 57 1"
+  },
+  {
+    "car": "SATURN VUE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 55 2"
+  },
+  {
+    "car": "SATURN VUE",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 7"
+  },
+  {
+    "car": "SCION TC",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 2/2/2026",
+    "locations": "(1) CARS FRONT 75 7"
+  },
+  {
+    "car": "SCION XB",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 15"
+  },
+  {
+    "car": "SCION XD",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 25 6"
+  },
+  {
+    "car": "SUBARU FORESTER",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 2"
+  },
+  {
+    "car": "SUBARU FORESTER",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 16"
+  },
+  {
+    "car": "SUBARU FORESTER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 11/17/2025",
+    "locations": "(1) CARS FRONT 22 12"
+  },
+  {
+    "car": "SUBARU FORESTER",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 24 17"
+  },
+  {
+    "car": "SUBARU FORESTER",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 43 8"
+  },
+  {
+    "car": "SUBARU IMPREZA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 29 21"
+  },
+  {
+    "car": "SUBARU LEGACY",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 56 7"
+  },
+  {
+    "car": "SUBARU LEGACY",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 36 21"
+  },
+  {
+    "car": "SUBARU LEGACY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 12"
+  },
+  {
+    "car": "SUBARU OUTBACK",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 1"
+  },
+  {
+    "car": "SUBARU OUTBACK",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 65 1"
+  },
+  {
+    "car": "SUZUKI FORENZA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 24 12"
+  },
+  {
+    "car": "SUZUKI FORENZA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 53 8"
+  },
+  {
+    "car": "SUZUKI GRAND VITARA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 16"
+  },
+  {
+    "car": "SUZUKI KIZASHI",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 4"
+  },
+  {
+    "car": "SUZUKI SWIFT",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 20"
+  },
+  {
+    "car": "SUZUKI SX4",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 4"
+  },
+  {
+    "car": "SUZUKI VITARA",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 56 4"
+  },
+  {
+    "car": "TOYOTA 4RUNNER",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 1"
+  },
+  {
+    "car": "TOYOTA AVALON",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 13"
+  },
+  {
+    "car": "TOYOTA AVALON",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 24"
+  },
+  {
+    "car": "TOYOTA AVALON",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 29 3"
+  },
+  {
+    "car": "TOYOTA AVALON",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 3"
+  },
+  {
+    "car": "TOYOTA AVALON",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 8"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 10"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "1999",
+    "count": "1",
+    "dates": "(1) 12/22/2025",
+    "locations": "(1) CARS FRONT 42 11"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 1/27/2026",
+    "locations": "(1) CARS FRONT 72 11"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 1"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 1/9/2026",
+    "locations": "(1) CARS FRONT 63 27"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/19/2026",
+    "locations": "(1) CARS FRONT 68 26"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 19"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 29"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 70 27"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 9"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 11"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/1/2026",
+    "locations": "(1) CARS FRONT 54 4"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 1/21/2026",
+    "locations": "(1) CARS FRONT 69 2"
+  },
+  {
+    "car": "TOYOTA CAMRY",
+    "year": "2017",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 48 6"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 28 9"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 57 6"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 65 27"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 60 5"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 11/25/2025",
+    "locations": "(1) CARS FRONT 25 12"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/10/2025",
+    "locations": "(1) CARS FRONT 33 7"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/2/2025",
+    "locations": "(1) CARS FRONT 28 8"
+  },
+  {
+    "car": "TOYOTA COROLLA",
+    "year": "2011",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 1 27"
+  },
+  {
+    "car": "TOYOTA HIGHLANDER",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 19"
+  },
+  {
+    "car": "TOYOTA HIGHLANDER",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/29/2026",
+    "locations": "(1) CARS FRONT 74 15"
+  },
+  {
+    "car": "TOYOTA LAND CRUISER",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 12/30/2025",
+    "locations": "(1) CARS FRONT 50 1"
+  },
+  {
+    "car": "TOYOTA MATRIX",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 21"
+  },
+  {
+    "car": "TOYOTA MATRIX",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 30 10"
+  },
+  {
+    "car": "TOYOTA MATRIX",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 29 5"
+  },
+  {
+    "car": "TOYOTA PRIUS",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 11/17/2025",
+    "locations": "(1) CARS FRONT 22 9"
+  },
+  {
+    "car": "TOYOTA PRIUS",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 44 2"
+  },
+  {
+    "car": "TOYOTA PRIUS",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/13/2026",
+    "locations": "(1) CARS FRONT 65 9"
+  },
+  {
+    "car": "TOYOTA PRIUS V",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 19"
+  },
+  {
+    "car": "TOYOTA RAV4",
+    "year": "1998",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 6"
+  },
+  {
+    "car": "TOYOTA RAV4",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 64 6"
+  },
+  {
+    "car": "TOYOTA RAV4",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 2/4/2026",
+    "locations": "(1) TRUCKS 2 8"
+  },
+  {
+    "car": "TOYOTA SEQUOIA",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 1/20/2026",
+    "locations": "(1) CARS FRONT 68 1"
+  },
+  {
+    "car": "TOYOTA SIENNA",
+    "year": "2000",
+    "count": "1",
+    "dates": "(1) 11/11/2025",
+    "locations": "(1) CARS FRONT 19 8"
+  },
+  {
+    "car": "TOYOTA SIENNA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 23"
+  },
+  {
+    "car": "TOYOTA SIENNA",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 2/3/2026",
+    "locations": "(1) TRUCKS 1 18"
+  },
+  {
+    "car": "TOYOTA SIENNA",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 11"
+  },
+  {
+    "car": "TOYOTA SIENNA",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 23"
+  },
+  {
+    "car": "TOYOTA YARIS",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 16"
+  },
+  {
+    "car": "TRIUMPH SPITFIRE",
+    "year": "1973",
+    "count": "1",
+    "dates": "(1) 12/8/2025",
+    "locations": "(1) CARS FRONT 31 7"
+  },
+  {
+    "car": "VOLKSWAGEN BEETLE",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/5/2025",
+    "locations": "(1) CARS FRONT 31 3"
+  },
+  {
+    "car": "VOLKSWAGEN BEETLE",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 30 1"
+  },
+  {
+    "car": "VOLKSWAGEN CABRIO",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 12/29/2025",
+    "locations": "(1) CARS FRONT 49 3"
+  },
+  {
+    "car": "VOLKSWAGEN CC",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 2"
+  },
+  {
+    "car": "VOLKSWAGEN CC",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 15"
+  },
+  {
+    "car": "VOLKSWAGEN CC",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 56 9"
+  },
+  {
+    "car": "VOLKSWAGEN EUROVAN",
+    "year": "1993",
+    "count": "1",
+    "dates": "(1) 12/16/2025",
+    "locations": "(1) CARS FRONT 36 2"
+  },
+  {
+    "car": "VOLKSWAGEN GTI",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 42 8"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/18/2025",
+    "locations": "(1) CARS FRONT 39 10"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/9/2025",
+    "locations": "(1) CARS FRONT 32 8"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2009",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 8"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 19"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/14/2026",
+    "locations": "(1) CARS FRONT 66 18"
+  },
+  {
+    "car": "VOLKSWAGEN JETTA",
+    "year": "2014",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 12"
+  },
+  {
+    "car": "VOLKSWAGEN PASSAT",
+    "year": "2001",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 12"
+  },
+  {
+    "car": "VOLKSWAGEN PASSAT",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/13/2025",
+    "locations": "(1) CARS FRONT 20 19"
+  },
+  {
+    "car": "VOLKSWAGEN PASSAT",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 12"
+  },
+  {
+    "car": "VOLKSWAGEN PASSAT",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/4/2025",
+    "locations": "(1) CARS FRONT 30 2"
+  },
+  {
+    "car": "VOLKSWAGEN PASSAT",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/7/2026",
+    "locations": "(1) CARS FRONT 62 22"
+  },
+  {
+    "car": "VOLKSWAGEN TIGUAN",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 12"
+  },
+  {
+    "car": "VOLKSWAGEN TIGUAN",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 1/6/2026",
+    "locations": "(1) CARS FRONT 61 10"
+  },
+  {
+    "car": "VOLKSWAGEN TOUAREG",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 13"
+  },
+  {
+    "car": "VOLKSWAGEN VANAGON",
+    "year": "1990",
+    "count": "1",
+    "dates": "(1) 1/5/2026",
+    "locations": "(1) CARS FRONT 59 8"
+  },
+  {
+    "car": "VOLVO 240",
+    "year": "1984",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 58 12"
+  },
+  {
+    "car": "VOLVO S40",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/21/2025",
+    "locations": "(1) CARS FRONT 23 5"
+  },
+  {
+    "car": "VOLVO S40",
+    "year": "2010",
+    "count": "1",
+    "dates": "(1) 12/19/2025",
+    "locations": "(1) CARS FRONT 41 7"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2002",
+    "count": "1",
+    "dates": "(1) 12/23/2025",
+    "locations": "(1) CARS FRONT 45 10"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2003",
+    "count": "1",
+    "dates": "(1) 12/11/2025",
+    "locations": "(1) CARS FRONT 33 19"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2004",
+    "count": "1",
+    "dates": "(1) 11/26/2025",
+    "locations": "(1) CARS FRONT 26 4"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 12/31/2025",
+    "locations": "(1) CARS FRONT 52 2"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 11/14/2025",
+    "locations": "(1) CARS FRONT 21 17"
+  },
+  {
+    "car": "VOLVO S60",
+    "year": "2012",
+    "count": "1",
+    "dates": "(1) 11/24/2025",
+    "locations": "(1) CARS FRONT 24 20"
+  },
+  {
+    "car": "VOLVO V50",
+    "year": "2005",
+    "count": "1",
+    "dates": "(1) 1/2/2026",
+    "locations": "(1) CARS FRONT 57 9"
+  },
+  {
+    "car": "VOLVO V70",
+    "year": "2006",
+    "count": "1",
+    "dates": "(1) 1/16/2026",
+    "locations": "(1) CARS FRONT 67 15"
+  },
+  {
+    "car": "VOLVO V90",
+    "year": "1997",
+    "count": "1",
+    "dates": "(1) 1/26/2026",
+    "locations": "(1) CARS FRONT 71 7"
+  },
+  {
+    "car": "VOLVO XC60",
+    "year": "2013",
+    "count": "1",
+    "dates": "(1) 1/12/2026",
+    "locations": "(1) CARS FRONT 65 24"
+  },
+  {
+    "car": "VOLVO XC90",
+    "year": "2007",
+    "count": "1",
+    "dates": "(1) 1/15/2026",
+    "locations": "(1) CARS FRONT 66 2"
+  },
+  {
+    "car": "VOLVO XC90",
+    "year": "2008",
+    "count": "1",
+    "dates": "(1) 1/8/2026",
+    "locations": "(1) CARS FRONT 63 12"
+  }
+]
